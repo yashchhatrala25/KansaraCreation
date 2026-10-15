@@ -1,12 +1,15 @@
 "use client";
 
-import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+import React, { useState, Suspense } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { ShieldCheck, Lock, Mail, AlertCircle, Sparkles, ArrowRight } from "lucide-react";
+import { ShieldCheck, Lock, Mail, AlertCircle, Sparkles, ArrowRight, Info } from "lucide-react";
 
-export default function AdminLoginPage() {
+function LoginForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const from = searchParams.get("from");
+
   const [email, setEmail] = useState("admin@kansara.com");
   const [password, setPassword] = useState("Admin@123");
   const [error, setError] = useState<string | null>(null);
@@ -30,7 +33,12 @@ export default function AdminLoginPage() {
         throw new Error(data.error || "Login failed");
       }
 
-      router.push("/admin/dashboard");
+      const destination =
+        from && from.startsWith("/admin") && from !== "/admin/login"
+          ? from
+          : "/admin/dashboard";
+
+      router.push(destination);
       router.refresh();
     } catch (err: any) {
       setError(err.message || "Failed to authenticate");
@@ -61,6 +69,13 @@ export default function AdminLoginPage() {
               Sign in to manage Kansara Creation products, orders, and customer analytics.
             </p>
           </div>
+
+          {from && (
+            <div className="p-3 rounded-xl bg-violet-500/10 border border-violet-500/30 text-violet-300 text-xs mb-6 flex items-center gap-2">
+              <Info className="w-4 h-4 flex-shrink-0 text-violet-400" />
+              <span>Please sign in to access the requested admin page.</span>
+            </div>
+          )}
 
           {/* Seed credentials notice */}
           <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs mb-6 space-y-1">
@@ -140,5 +155,19 @@ export default function AdminLoginPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function AdminLoginPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen flex items-center justify-center bg-background">
+          <div className="w-8 h-8 border-2 border-pink-500 border-t-transparent rounded-full animate-spin" />
+        </div>
+      }
+    >
+      <LoginForm />
+    </Suspense>
   );
 }

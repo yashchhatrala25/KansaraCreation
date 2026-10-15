@@ -15,11 +15,11 @@
       "description": "Exquisite handcrafted wooden hoop art with custom calendar date circled in red embroidery thread. Decorated with delicate French knot floral garland and customized couple names.",
       "price": 1899,
       "category": "Wall Hangings",
-      "images": "[\"/images/products/calendar-hoop.jpg\",\"/images/products/couple-name-hoop.jpg\"]",
+      "images": "[\"/images/products/calendar-hoop.jpg\"]",
       "stock": 12,
       "featured": true,
       "createdAt": "2026-08-16T10:45:10.986Z",
-      "updatedAt": "2026-10-15T10:45:10.986Z"
+      "updatedAt": "2026-10-15T12:46:21.714Z"
     },
     {
       "id": "prod_hair_bows_linen",
@@ -155,6 +155,22 @@
     }
   ],
   "orders": [
+    {
+      "id": "KC-111631",
+      "customerName": "Radha Dave",
+      "phone": "9876543210",
+      "email": "radha@example.com",
+      "address": "702, Lotus Apts",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015",
+      "items": "[{\"productId\":\"prod_calendar_hoop\",\"name\":\"Calendar Hoop\",\"price\":1899,\"quantity\":1}]",
+      "total": 1899,
+      "status": "Delivered",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-10-15T12:44:10.305Z",
+      "updatedAt": "2026-10-15T12:44:10.336Z"
+    },
     {
       "id": "KC-740000",
       "customerName": "Pooja Sharma",
@@ -445,6 +461,20 @@
     }
   ],
   "visits": [
+    {
+      "id": "vis_1792068331784_512d1",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T12:45:31.784Z"
+    },
+    {
+      "id": "vis_1792068331722_t5qzk",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T12:45:31.722Z"
+    },
     {
       "id": "vis_1792061942335_p3ljz",
       "page": "/",
