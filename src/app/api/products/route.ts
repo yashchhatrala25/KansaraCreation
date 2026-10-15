@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { db } from "@/lib/db";
 import { cookies } from "next/headers";
 import { verifyAdminToken } from "@/lib/auth";
@@ -46,7 +47,10 @@ export async function GET(request: Request) {
     return NextResponse.json(formatted);
   } catch (err: any) {
     console.error("Products GET error:", err);
-    return NextResponse.json({ error: "Failed to fetch products" }, { status: 500 });
+    return NextResponse.json(
+      { error: err?.message || "Failed to fetch products" },
+      { status: 500 }
+    );
   }
 }
 
@@ -57,7 +61,7 @@ export async function POST(request: Request) {
     const session = token ? verifyAdminToken(token) : null;
 
     if (!session) {
-      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+      return NextResponse.json({ error: "Unauthorized - Please log in to admin" }, { status: 401 });
     }
 
     const body = await request.json();
@@ -84,6 +88,14 @@ export async function POST(request: Request) {
       },
     });
 
+    try {
+      revalidatePath("/products");
+      revalidatePath("/admin/products");
+      revalidatePath("/");
+    } catch (cacheErr) {
+      console.warn("Revalidate cache non-fatal error:", cacheErr);
+    }
+
     return NextResponse.json(
       {
         ...newProduct,
@@ -93,6 +105,9 @@ export async function POST(request: Request) {
     );
   } catch (err: any) {
     console.error("Product POST error:", err);
-    return NextResponse.json({ error: "Failed to create product" }, { status: 500 });
+    return NextResponse.json(
+      { error: err?.message || "Failed to create product" },
+      { status: 500 }
+    );
   }
 }

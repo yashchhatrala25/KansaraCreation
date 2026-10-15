@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import os from "os";
 import type { Product, Order, OrderStatus } from "../types/index.ts";
 
 export interface DBStore {
@@ -47,47 +48,104 @@ export interface DBStore {
   }>;
 }
 
-const DATA_DIR = path.join(process.cwd(), "data");
-const DB_FILE = path.join(DATA_DIR, "db.json");
+const PRIMARY_DATA_DIR = path.join(process.cwd(), "data");
+const PRIMARY_DB_FILE = path.join(PRIMARY_DATA_DIR, "db.json");
 
-function ensureDbFile(): DBStore {
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-  }
+// Cache store in memory across requests in the warm serverless container
+let memoryStore: DBStore | null = null;
+let determinedDbFile: string | null = null;
 
-  if (!fs.existsSync(DB_FILE)) {
-    const initial: DBStore = {
-      admins: [],
-      products: [],
-      orders: [],
-      visits: [],
-    };
-    fs.writeFileSync(DB_FILE, JSON.stringify(initial, null, 2), "utf8");
-    return initial;
-  }
+function getWritableDbFile(): string {
+  if (determinedDbFile) return determinedDbFile;
 
+  // 1. Try local project data directory first (for local dev / VPS)
   try {
-    const content = fs.readFileSync(DB_FILE, "utf8");
-    return JSON.parse(content);
-  } catch (err) {
-    const initial: DBStore = {
-      admins: [],
-      products: [],
-      orders: [],
-      visits: [],
-    };
-    fs.writeFileSync(DB_FILE, JSON.stringify(initial, null, 2), "utf8");
-    return initial;
+    if (!fs.existsSync(PRIMARY_DATA_DIR)) {
+      fs.mkdirSync(PRIMARY_DATA_DIR, { recursive: true });
+    }
+    const testFile = path.join(PRIMARY_DATA_DIR, `.write_test_${Date.now()}`);
+    fs.writeFileSync(testFile, "ok", "utf8");
+    fs.unlinkSync(testFile);
+    determinedDbFile = PRIMARY_DB_FILE;
+    return determinedDbFile;
+  } catch {
+    // 2. On Vercel / Netlify / AWS Lambda, process.cwd() is read-only (EROFS).
+    // Fallback to os.tmpdir() (/tmp), which is the writable directory in serverless.
+    try {
+      const tmpDir = path.join(os.tmpdir(), "kansara-data");
+      if (!fs.existsSync(tmpDir)) {
+        fs.mkdirSync(tmpDir, { recursive: true });
+      }
+      const tmpDbFile = path.join(tmpDir, "db.json");
+
+      // Seed /tmp from bundled db.json if not present
+      if (!fs.existsSync(tmpDbFile) && fs.existsSync(PRIMARY_DB_FILE)) {
+        const initialContent = fs.readFileSync(PRIMARY_DB_FILE, "utf8");
+        fs.writeFileSync(tmpDbFile, initialContent, "utf8");
+      }
+
+      determinedDbFile = tmpDbFile;
+      return determinedDbFile;
+    } catch {
+      // 3. Fallback to primary if even tmp fails
+      determinedDbFile = PRIMARY_DB_FILE;
+      return determinedDbFile;
+    }
   }
 }
 
-function saveDb(store: DBStore) {
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
+function ensureDbFile(): DBStore {
+  if (memoryStore) {
+    return memoryStore;
   }
-  const tempFile = `${DB_FILE}.tmp`;
-  fs.writeFileSync(tempFile, JSON.stringify(store, null, 2), "utf8");
-  fs.renameSync(tempFile, DB_FILE);
+
+  const dbPath = getWritableDbFile();
+
+  // Try reading from resolved writable path
+  try {
+    if (fs.existsSync(dbPath)) {
+      const content = fs.readFileSync(dbPath, "utf8");
+      memoryStore = JSON.parse(content);
+      return memoryStore!;
+    }
+  } catch (err) {
+    console.warn("Could not read from writable path:", err);
+  }
+
+  // Fallback: Read from primary bundled data/db.json
+  try {
+    if (fs.existsSync(PRIMARY_DB_FILE)) {
+      const content = fs.readFileSync(PRIMARY_DB_FILE, "utf8");
+      memoryStore = JSON.parse(content);
+      return memoryStore!;
+    }
+  } catch (err) {
+    console.error("Could not read from primary bundled db.json:", err);
+  }
+
+  const initial: DBStore = {
+    admins: [],
+    products: [],
+    orders: [],
+    visits: [],
+  };
+  memoryStore = initial;
+  return memoryStore;
+}
+
+function saveDb(store: DBStore) {
+  memoryStore = store;
+  const dbPath = getWritableDbFile();
+
+  try {
+    const dir = path.dirname(dbPath);
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir, { recursive: true });
+    }
+    fs.writeFileSync(dbPath, JSON.stringify(store, null, 2), "utf8");
+  } catch (err) {
+    console.warn("Failed to write to filesystem (persisted in memory):", err);
+  }
 }
 
 export const db = {

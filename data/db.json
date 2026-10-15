@@ -13,13 +13,13 @@
       "id": "prod_calendar_hoop",
       "name": "Personalized Anniversary Calendar Embroidery Hoop",
       "description": "Exquisite handcrafted wooden hoop art with custom calendar date circled in red embroidery thread. Decorated with delicate French knot floral garland and customized couple names.",
-      "price": 1899,
+      "price": 1999,
       "category": "Wall Hangings",
       "images": "[\"/images/products/calendar-hoop.jpg\"]",
       "stock": 12,
       "featured": true,
       "createdAt": "2026-08-16T10:45:10.986Z",
-      "updatedAt": "2026-10-15T12:46:21.714Z"
+      "updatedAt": "2026-10-15T12:58:35.091Z"
     },
     {
       "id": "prod_hair_bows_linen",
@@ -155,6 +155,38 @@
     }
   ],
   "orders": [
+    {
+      "id": "KC-631651",
+      "customerName": "Radha Dave",
+      "phone": "9876543210",
+      "email": "radha@example.com",
+      "address": "702, Lotus Apts",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015",
+      "items": "[{\"productId\":\"prod_calendar_hoop\",\"name\":\"Calendar Hoop\",\"price\":1899,\"quantity\":1}]",
+      "total": 1899,
+      "status": "Delivered",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-10-15T12:56:17.050Z",
+      "updatedAt": "2026-10-15T12:56:17.059Z"
+    },
+    {
+      "id": "KC-702716",
+      "customerName": "Radha Dave",
+      "phone": "9876543210",
+      "email": "radha@example.com",
+      "address": "702, Lotus Apts",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015",
+      "items": "[{\"productId\":\"prod_calendar_hoop\",\"name\":\"Calendar Hoop\",\"price\":1899,\"quantity\":1}]",
+      "total": 1899,
+      "status": "Delivered",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-10-15T12:55:31.334Z",
+      "updatedAt": "2026-10-15T12:55:31.353Z"
+    },
     {
       "id": "KC-111631",
       "customerName": "Radha Dave",
@@ -461,6 +493,55 @@
     }
   ],
   "visits": [
+    {
+      "id": "vis_1792069084654_x3f0b",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T12:58:04.654Z"
+    },
+    {
+      "id": "vis_1792069083328_dgvto",
+      "page": "/contact",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T12:58:03.328Z"
+    },
+    {
+      "id": "vis_1792069080063_dc3f0",
+      "page": "/about",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T12:58:00.063Z"
+    },
+    {
+      "id": "vis_1792069076309_lt9qc",
+      "page": "/gallery",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T12:57:56.309Z"
+    },
+    {
+      "id": "vis_1792069073289_ybhdc",
+      "page": "/products",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T12:57:53.289Z"
+    },
+    {
+      "id": "vis_1792069069497_3kk4w",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T12:57:49.497Z"
+    },
+    {
+      "id": "vis_1792069069288_wk5dk",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T12:57:49.288Z"
+    },
     {
       "id": "vis_1792068331784_512d1",
       "page": "/",

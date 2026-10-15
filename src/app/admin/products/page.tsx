@@ -120,7 +120,10 @@ export default function AdminProductsPage() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
         });
-        if (!res.ok) throw new Error("Failed to update product");
+        if (!res.ok) {
+          const data = await res.json().catch(() => ({}));
+          throw new Error(data.error || `Failed to update product (${res.status})`);
+        }
       } else {
         // Create
         const res = await fetch("/api/products", {
@@ -128,7 +131,10 @@ export default function AdminProductsPage() {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload),
         });
-        if (!res.ok) throw new Error("Failed to create product");
+        if (!res.ok) {
+          const data = await res.json().catch(() => ({}));
+          throw new Error(data.error || `Failed to create product (${res.status})`);
+        }
       }
 
       setIsModalOpen(false);
