@@ -1,0 +1,7043 @@
+{
+  "admins": [
+    {
+      "id": "adm_kansara_master",
+      "email": "admin@kansara.com",
+      "passwordHash": "$2b$10$DDMtFJMgrW97Cc6LQG91x.2UiVHZLKxWl6azvdr3IpCmELmQfW/TO",
+      "name": "Kansara Admin",
+      "createdAt": "2026-10-15T10:45:10.984Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_calendar_hoop",
+      "name": "Personalized Anniversary Calendar Embroidery Hoop",
+      "description": "Exquisite handcrafted wooden hoop art with custom calendar date circled in red embroidery thread. Decorated with delicate French knot floral garland and customized couple names.",
+      "price": 1899,
+      "category": "Wall Hangings",
+      "images": "[\"/images/products/calendar-hoop.jpg\",\"/images/products/couple-name-hoop.jpg\"]",
+      "stock": 12,
+      "featured": true,
+      "createdAt": "2026-08-16T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_hair_bows_linen",
+      "name": "Daisy Meadow Hand-Embroidered Linen Hair Bows (Pair)",
+      "description": "Delicate pair of handmade natural linen hair bows adorned with hand-stitched wild daisies, botanical vines, and soft frayed edges. Ideal for festive and everyday hair styling.",
+      "price": 699,
+      "category": "Hair Bows",
+      "images": "[\"/images/products/hair-bows-linen.jpg\",\"/images/products/velvet-bow-set.jpg\"]",
+      "stock": 18,
+      "featured": true,
+      "createdAt": "2026-08-26T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_boho_dreamcatcher",
+      "name": "Bohemian Dip-Dyed Rose Quartz Dreamcatcher",
+      "description": "Intricately woven mandala lace web centered with genuine polished crystal and natural wooden beads. Features cascading ombre dip-dyed rose-gold and cream macrame fringe tassels.",
+      "price": 2299,
+      "category": "Dreamcatchers",
+      "images": "[\"/images/products/boho-dreamcatcher.jpg\",\"/images/products/celestial-moon-dreamcatcher.jpg\"]",
+      "stock": 7,
+      "featured": true,
+      "createdAt": "2026-08-31T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_couple_name_hoop",
+      "name": "Golden Monogram Couple Floral Hoop Wall Hanging",
+      "description": "Romantic couple name hoop art embroidered in lustrous metallic gold thread, embraced by an asymmetrical wreath of eucalyptus leaves and blush roses on organic cotton.",
+      "price": 2499,
+      "category": "Wall Hangings",
+      "images": "[\"/images/products/couple-name-hoop.jpg\",\"/images/products/calendar-hoop.jpg\"]",
+      "stock": 5,
+      "featured": true,
+      "createdAt": "2026-09-05T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_velvet_bow_set",
+      "name": "Artisanal Velvet Honeybee & Wildflower Hair Clips (Trio)",
+      "description": "Luxury trio of plush velvet hair clips in sage green, dusty rose, and mustard yellow. Each clip is hand-stitched with miniature golden honeybees and vibrant wildflower French knots.",
+      "price": 899,
+      "category": "Hair Bows",
+      "images": "[\"/images/products/velvet-bow-set.jpg\",\"/images/products/hair-bows-linen.jpg\"]",
+      "stock": 14,
+      "featured": true,
+      "createdAt": "2026-09-10T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_celestial_moon_dreamcatcher",
+      "name": "Celestial Dusk Crescent Moon Macrame Hanging",
+      "description": "Handcrafted golden wire crescent moon frame with micro-macrame woven web, iridescent crystal beads, and flowing twilight purple-to-pink gradient silk tassels with star charms.",
+      "price": 2199,
+      "category": "Dreamcatchers",
+      "images": "[\"/images/products/celestial-moon-dreamcatcher.jpg\",\"/images/products/boho-dreamcatcher.jpg\"]",
+      "stock": 8,
+      "featured": true,
+      "createdAt": "2026-09-15T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_wedding_vows_hoop",
+      "name": "Personalized Wedding Vows Keepsake Hoop Art",
+      "description": "Preserve your sacred promises in timeless hand-embroidery. Custom script lettering framed by romantic botanical laurel on pure Irish linen.",
+      "price": 2199,
+      "category": "Wall Hangings",
+      "images": "[\"/images/products/couple-name-hoop.jpg\"]",
+      "stock": 6,
+      "featured": false,
+      "createdAt": "2026-09-20T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_vintage_rose_bow",
+      "name": "Vintage Heirloom Dusty Rose Embroidered Bow",
+      "description": "Oversized statement hair bow crafted from premium textured cotton linen with intricate hand-embroidered climbing tea roses and bud clusters.",
+      "price": 599,
+      "category": "Hair Bows",
+      "images": "[\"/images/products/hair-bows-linen.jpg\"]",
+      "stock": 20,
+      "featured": false,
+      "createdAt": "2026-09-25T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_feather_dreamcatcher",
+      "name": "Tribal Sun & Feather Hanging with Wooden Beads",
+      "description": "Traditional circular dreamcatcher crafted with natural willow hoop, intricate web weave, cruelty-free feathers, and hand-carved sandalwood beads.",
+      "price": 1799,
+      "category": "Dreamcatchers",
+      "images": "[\"/images/products/boho-dreamcatcher.jpg\"]",
+      "stock": 9,
+      "featured": false,
+      "createdAt": "2026-09-30T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_baby_stats_hoop",
+      "name": "Baby Birth Announcement Floral Embroidery Hoop",
+      "description": "Celebrate the arrival of your little one with a customized birth details hoop: date, time, weight, and baby name framed by sweet pastel nursery flowers.",
+      "price": 1999,
+      "category": "Wall Hangings",
+      "images": "[\"/images/products/calendar-hoop.jpg\"]",
+      "stock": 11,
+      "featured": false,
+      "createdAt": "2026-10-05T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_lavender_hair_clip_set",
+      "name": "Lavender Sprig Hand-Stitched Alligator Clips",
+      "description": "Set of 2 boutique alligator clips wrapped in soft cream linen, hand-embroidered with fragrant purple lavender sprigs and sage green leaves.",
+      "price": 499,
+      "category": "Hair Bows",
+      "images": "[\"/images/products/velvet-bow-set.jpg\"]",
+      "stock": 22,
+      "featured": false,
+      "createdAt": "2026-10-10T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "prod_aurora_dreamcatcher",
+      "name": "Aurora Borealis Ombre Macrame Dreamcatcher",
+      "description": "Mesmerizing multi-tiered wall hanging combining intricate macrame knotting with dip-dyed teal, violet, and blush fringe tassels.",
+      "price": 2599,
+      "category": "Dreamcatchers",
+      "images": "[\"/images/products/celestial-moon-dreamcatcher.jpg\"]",
+      "stock": 4,
+      "featured": false,
+      "createdAt": "2026-10-13T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "KC-740000",
+      "customerName": "Pooja Sharma",
+      "phone": "9876501234",
+      "email": "pooja.sharma@example.com",
+      "address": "Flat 101, Sunshine Residency, Near Craft Garden",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400001",
+      "items": "[{\"productId\":\"prod_calendar_hoop\",\"name\":\"Personalized Anniversary Calendar Embroidery Hoop\",\"price\":1899,\"quantity\":1,\"image\":\"/images/products/calendar-hoop.jpg\"}]",
+      "total": 1899,
+      "status": "Delivered",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-05-18T10:45:10.986Z",
+      "updatedAt": "2026-05-18T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740001",
+      "customerName": "Rohan Patel",
+      "phone": "9825123456",
+      "email": "rohan.patel@example.com",
+      "address": "Flat 102, Sunshine Residency, Near Craft Garden",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380015",
+      "items": "[{\"productId\":\"prod_couple_name_hoop\",\"name\":\"Golden Monogram Couple Floral Hoop Wall Hanging\",\"price\":2499,\"quantity\":1,\"image\":\"/images/products/couple-name-hoop.jpg\"}]",
+      "total": 2499,
+      "status": "Delivered",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-06-02T10:45:10.986Z",
+      "updatedAt": "2026-06-02T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740002",
+      "customerName": "Ananya Iyer",
+      "phone": "9988776655",
+      "email": "ananya.iyer@example.com",
+      "address": "Flat 103, Sunshine Residency, Near Craft Garden",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560034",
+      "items": "[{\"productId\":\"prod_hair_bows_linen\",\"name\":\"Daisy Meadow Hand-Embroidered Linen Hair Bows (Pair)\",\"price\":699,\"quantity\":2,\"image\":\"/images/products/hair-bows-linen.jpg\"}]",
+      "total": 1398,
+      "status": "Delivered",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-06-17T10:45:10.986Z",
+      "updatedAt": "2026-06-17T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740003",
+      "customerName": "Sneha Mukherjee",
+      "phone": "9712345678",
+      "email": "sneha.m@example.com",
+      "address": "Flat 104, Sunshine Residency, Near Craft Garden",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700029",
+      "items": "[{\"productId\":\"prod_boho_dreamcatcher\",\"name\":\"Bohemian Dip-Dyed Rose Quartz Dreamcatcher\",\"price\":2299,\"quantity\":1,\"image\":\"/images/products/boho-dreamcatcher.jpg\"}]",
+      "total": 2299,
+      "status": "Delivered",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-07-02T10:45:10.986Z",
+      "updatedAt": "2026-07-02T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740004",
+      "customerName": "Vikas Verma",
+      "phone": "9811223344",
+      "email": "vikas.verma@example.com",
+      "address": "Flat 105, Sunshine Residency, Near Craft Garden",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001",
+      "items": "[{\"productId\":\"prod_celestial_moon_dreamcatcher\",\"name\":\"Celestial Dusk Crescent Moon Macrame Hanging\",\"price\":2199,\"quantity\":1,\"image\":\"/images/products/celestial-moon-dreamcatcher.jpg\"}]",
+      "total": 2199,
+      "status": "Delivered",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-07-17T10:45:10.986Z",
+      "updatedAt": "2026-07-17T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740005",
+      "customerName": "Meera Nair",
+      "phone": "9447112233",
+      "email": "meera.nair@example.com",
+      "address": "Flat 106, Sunshine Residency, Near Craft Garden",
+      "city": "Kochi",
+      "state": "Kerala",
+      "pincode": "682016",
+      "items": "[{\"productId\":\"prod_velvet_bow_set\",\"name\":\"Artisanal Velvet Honeybee & Wildflower Hair Clips (Trio)\",\"price\":899,\"quantity\":2,\"image\":\"/images/products/velvet-bow-set.jpg\"}]",
+      "total": 1798,
+      "status": "Delivered",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-08-01T10:45:10.986Z",
+      "updatedAt": "2026-08-01T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740006",
+      "customerName": "Kunal Deshmukh",
+      "phone": "9822334455",
+      "email": "kunal.d@example.com",
+      "address": "Flat 107, Sunshine Residency, Near Craft Garden",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411004",
+      "items": "[{\"productId\":\"prod_calendar_hoop\",\"name\":\"Personalized Anniversary Calendar Embroidery Hoop\",\"price\":1899,\"quantity\":1,\"image\":\"/images/products/calendar-hoop.jpg\"},{\"productId\":\"prod_hair_bows_linen\",\"name\":\"Daisy Meadow Hand-Embroidered Linen Hair Bows (Pair)\",\"price\":699,\"quantity\":1,\"image\":\"/images/products/hair-bows-linen.jpg\"}]",
+      "total": 2598,
+      "status": "Delivered",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-08-16T10:45:10.986Z",
+      "updatedAt": "2026-08-16T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740007",
+      "customerName": "Deepika Singh",
+      "phone": "9910203040",
+      "email": "deepika.s@example.com",
+      "address": "Flat 108, Sunshine Residency, Near Craft Garden",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "pincode": "302001",
+      "items": "[{\"productId\":\"prod_couple_name_hoop\",\"name\":\"Golden Monogram Couple Floral Hoop Wall Hanging\",\"price\":2499,\"quantity\":1,\"image\":\"/images/products/couple-name-hoop.jpg\"}]",
+      "total": 2499,
+      "status": "Delivered",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-08-26T10:45:10.986Z",
+      "updatedAt": "2026-08-26T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740008",
+      "customerName": "Arjun Reddy",
+      "phone": "9849011223",
+      "email": "arjun.reddy@example.com",
+      "address": "Flat 109, Sunshine Residency, Near Craft Garden",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500081",
+      "items": "[{\"productId\":\"prod_boho_dreamcatcher\",\"name\":\"Bohemian Dip-Dyed Rose Quartz Dreamcatcher\",\"price\":2299,\"quantity\":1,\"image\":\"/images/products/boho-dreamcatcher.jpg\"}]",
+      "total": 2299,
+      "status": "Delivered",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-09-05T10:45:10.986Z",
+      "updatedAt": "2026-09-05T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740009",
+      "customerName": "Tanvi Shah",
+      "phone": "9824055667",
+      "email": "tanvi.shah@example.com",
+      "address": "Flat 110, Sunshine Residency, Near Craft Garden",
+      "city": "Surat",
+      "state": "Gujarat",
+      "pincode": "395007",
+      "items": "[{\"productId\":\"prod_velvet_bow_set\",\"name\":\"Artisanal Velvet Honeybee & Wildflower Hair Clips (Trio)\",\"price\":899,\"quantity\":1,\"image\":\"/images/products/velvet-bow-set.jpg\"}]",
+      "total": 899,
+      "status": "Shipped",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-09-20T10:45:10.986Z",
+      "updatedAt": "2026-09-20T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740010",
+      "customerName": "Aditya Joshi",
+      "phone": "9820012399",
+      "email": "aditya.j@example.com",
+      "address": "Flat 111, Sunshine Residency, Near Craft Garden",
+      "city": "Thane",
+      "state": "Maharashtra",
+      "pincode": "400601",
+      "items": "[{\"productId\":\"prod_calendar_hoop\",\"name\":\"Personalized Anniversary Calendar Embroidery Hoop\",\"price\":1899,\"quantity\":1,\"image\":\"/images/products/calendar-hoop.jpg\"}]",
+      "total": 1899,
+      "status": "Shipped",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-09-27T10:45:10.986Z",
+      "updatedAt": "2026-09-27T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740011",
+      "customerName": "Riya Sen",
+      "phone": "9830114477",
+      "email": "riya.sen@example.com",
+      "address": "Flat 112, Sunshine Residency, Near Craft Garden",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "pincode": "700019",
+      "items": "[{\"productId\":\"prod_celestial_moon_dreamcatcher\",\"name\":\"Celestial Dusk Crescent Moon Macrame Hanging\",\"price\":2199,\"quantity\":1,\"image\":\"/images/products/celestial-moon-dreamcatcher.jpg\"}]",
+      "total": 2199,
+      "status": "Packed",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-10-03T10:45:10.986Z",
+      "updatedAt": "2026-10-03T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740012",
+      "customerName": "Gaurav Mehta",
+      "phone": "9879112233",
+      "email": "gaurav.m@example.com",
+      "address": "Flat 113, Sunshine Residency, Near Craft Garden",
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "pincode": "390001",
+      "items": "[{\"productId\":\"prod_couple_name_hoop\",\"name\":\"Golden Monogram Couple Floral Hoop Wall Hanging\",\"price\":2499,\"quantity\":1,\"image\":\"/images/products/couple-name-hoop.jpg\"}]",
+      "total": 2499,
+      "status": "Packed",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-10-07T10:45:10.986Z",
+      "updatedAt": "2026-10-07T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740013",
+      "customerName": "Shreya Kapoor",
+      "phone": "9810998877",
+      "email": "shreya.k@example.com",
+      "address": "Flat 114, Sunshine Residency, Near Craft Garden",
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "pincode": "160017",
+      "items": "[{\"productId\":\"prod_hair_bows_linen\",\"name\":\"Daisy Meadow Hand-Embroidered Linen Hair Bows (Pair)\",\"price\":699,\"quantity\":2,\"image\":\"/images/products/hair-bows-linen.jpg\"}]",
+      "total": 1398,
+      "status": "Confirmed",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-10-10T10:45:10.986Z",
+      "updatedAt": "2026-10-10T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740014",
+      "customerName": "Nikhil Chawla",
+      "phone": "9871029384",
+      "email": "nikhil.c@example.com",
+      "address": "Flat 115, Sunshine Residency, Near Craft Garden",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "pincode": "122002",
+      "items": "[{\"productId\":\"prod_boho_dreamcatcher\",\"name\":\"Bohemian Dip-Dyed Rose Quartz Dreamcatcher\",\"price\":2299,\"quantity\":1,\"image\":\"/images/products/boho-dreamcatcher.jpg\"}]",
+      "total": 2299,
+      "status": "Confirmed",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-10-12T10:45:10.986Z",
+      "updatedAt": "2026-10-12T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740015",
+      "customerName": "Isha Dave",
+      "phone": "9898012345",
+      "email": "isha.dave@example.com",
+      "address": "Flat 116, Sunshine Residency, Near Craft Garden",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "380054",
+      "items": "[{\"productId\":\"prod_calendar_hoop\",\"name\":\"Personalized Anniversary Calendar Embroidery Hoop\",\"price\":1899,\"quantity\":1,\"image\":\"/images/products/calendar-hoop.jpg\"}]",
+      "total": 1899,
+      "status": "Pending",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-10-14T10:45:10.986Z",
+      "updatedAt": "2026-10-14T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740016",
+      "customerName": "Rahul Saxena",
+      "phone": "9818776655",
+      "email": "rahul.s@example.com",
+      "address": "Flat 117, Sunshine Residency, Near Craft Garden",
+      "city": "Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201301",
+      "items": "[{\"productId\":\"prod_velvet_bow_set\",\"name\":\"Artisanal Velvet Honeybee & Wildflower Hair Clips (Trio)\",\"price\":899,\"quantity\":2,\"image\":\"/images/products/velvet-bow-set.jpg\"}]",
+      "total": 1798,
+      "status": "Pending",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-10-15T10:45:10.986Z",
+      "updatedAt": "2026-10-15T10:45:10.986Z"
+    },
+    {
+      "id": "KC-740017",
+      "customerName": "Kavita Rao",
+      "phone": "9845112233",
+      "email": "kavita.rao@example.com",
+      "address": "Flat 118, Sunshine Residency, Near Craft Garden",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pincode": "600004",
+      "items": "[{\"productId\":\"prod_calendar_hoop\",\"name\":\"Personalized Anniversary Calendar Embroidery Hoop\",\"price\":1899,\"quantity\":1,\"image\":\"/images/products/calendar-hoop.jpg\"}]",
+      "total": 1899,
+      "status": "Cancelled",
+      "paymentMethod": "Cash on Delivery",
+      "createdAt": "2026-08-31T10:45:10.986Z",
+      "updatedAt": "2026-08-31T10:45:10.986Z"
+    }
+  ],
+  "visits": [
+    {
+      "id": "vis_1792061942335_p3ljz",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:59:02.335Z"
+    },
+    {
+      "id": "vis_1792061942288_tc9zq",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:59:02.288Z"
+    },
+    {
+      "id": "vis_1792061839712_o67vh",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:57:19.712Z"
+    },
+    {
+      "id": "vis_1792061831376_rks1a",
+      "page": "/checkout",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:57:11.376Z"
+    },
+    {
+      "id": "vis_1792061824891_778ew",
+      "page": "/products",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:57:04.892Z"
+    },
+    {
+      "id": "vis_1792061822209_c9x6w",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:57:02.209Z"
+    },
+    {
+      "id": "vis_1792061807180_qsp41",
+      "page": "/contact",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:56:47.180Z"
+    },
+    {
+      "id": "vis_1792061605836_g80rq",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:53:25.836Z"
+    },
+    {
+      "id": "vis_1792061605795_aampb",
+      "page": "/",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:53:25.795Z"
+    },
+    {
+      "id": "vis_1792061538803_r1p03",
+      "page": "/contact",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:52:18.803Z"
+    },
+    {
+      "id": "vis_1792061538774_9genu",
+      "page": "/contact",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:52:18.775Z"
+    },
+    {
+      "id": "vis_1792061532351_l170l",
+      "page": "/contact",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:52:12.351Z"
+    },
+    {
+      "id": "vis_1792061532318_blmj1",
+      "page": "/contact",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:52:12.318Z"
+    },
+    {
+      "id": "vis_1792061278206_curw1",
+      "page": "/contact",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:47:58.206Z"
+    },
+    {
+      "id": "vis_1792061273318_wgpm4",
+      "page": "/about",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:47:53.318Z"
+    },
+    {
+      "id": "vis_1792061267721_bt0x5",
+      "page": "/gallery",
+      "sessionId": "sess_3rbptts7",
+      "device": "desktop",
+      "timestamp": "2026-10-15T10:47:47.721Z"
+    },
+    {
+      "id": "vis_30_0_1imd",
+      "page": "/products",
+      "timestamp": "2026-09-15T10:50:53.781Z",
+      "sessionId": "sess_ctf6ygo",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_30_1_2fam",
+      "page": "/contact",
+      "timestamp": "2026-09-15T20:46:32.792Z",
+      "sessionId": "sess_mhbaevs",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_30_2_554k",
+      "page": "/about",
+      "timestamp": "2026-09-15T23:14:03.295Z",
+      "sessionId": "sess_j7nmkzm",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_30_3_1rlj",
+      "page": "/contact",
+      "timestamp": "2026-09-15T14:26:26.103Z",
+      "sessionId": "sess_guwpwt5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_30_4_w5ul",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-16T03:18:27.820Z",
+      "sessionId": "sess_esnn9vu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_30_5_ic3n",
+      "page": "/products",
+      "timestamp": "2026-09-16T06:56:24.348Z",
+      "sessionId": "sess_xr8czzj",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_30_6_aocx",
+      "page": "/products",
+      "timestamp": "2026-09-15T16:09:27.418Z",
+      "sessionId": "sess_gfs3x1h",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_30_7_dfhs",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-15T20:42:21.419Z",
+      "sessionId": "sess_hj3blwq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_30_8_ddzv",
+      "page": "/products",
+      "timestamp": "2026-09-16T00:33:59.049Z",
+      "sessionId": "sess_jkm44yk",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_30_9_s163",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-16T03:54:39.145Z",
+      "sessionId": "sess_9jqx4lh",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_30_10_q45g",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-16T08:18:12.951Z",
+      "sessionId": "sess_zvmkxww",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_30_11_50qa",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-16T08:52:09.221Z",
+      "sessionId": "sess_e6uz9ng",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_30_12_l5cg",
+      "page": "/about",
+      "timestamp": "2026-09-15T16:55:42.567Z",
+      "sessionId": "sess_8mshe84",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_30_13_qcyl",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-15T17:53:34.960Z",
+      "sessionId": "sess_pw9nhlz",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_30_14_wre1",
+      "page": "/",
+      "timestamp": "2026-09-15T19:06:04.581Z",
+      "sessionId": "sess_u97z670",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_30_15_jz0e",
+      "page": "/",
+      "timestamp": "2026-09-16T05:58:33.211Z",
+      "sessionId": "sess_pflvl9k",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_30_16_3033",
+      "page": "/",
+      "timestamp": "2026-09-16T03:43:53.623Z",
+      "sessionId": "sess_joh6q3e",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_30_17_czkt",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-16T00:56:41.293Z",
+      "sessionId": "sess_tfp5mu1",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_30_18_ahxf",
+      "page": "/",
+      "timestamp": "2026-09-16T08:27:43.311Z",
+      "sessionId": "sess_fyg8c9c",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_30_19_2aks",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-16T09:27:34.508Z",
+      "sessionId": "sess_os5rs4y",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_0_r8l4",
+      "page": "/contact",
+      "timestamp": "2026-09-16T18:51:28.096Z",
+      "sessionId": "sess_m9vqioy",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_29_1_9h6b",
+      "page": "/gallery",
+      "timestamp": "2026-09-16T18:16:02.744Z",
+      "sessionId": "sess_os9xlif",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_29_2_igcz",
+      "page": "/products",
+      "timestamp": "2026-09-16T14:17:09.450Z",
+      "sessionId": "sess_1p4v4bx",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_3_v430",
+      "page": "/gallery",
+      "timestamp": "2026-09-17T04:21:02.634Z",
+      "sessionId": "sess_bqj27au",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_4_t8xv",
+      "page": "/gallery",
+      "timestamp": "2026-09-16T10:45:46.659Z",
+      "sessionId": "sess_ucp14b6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_5_5tb7",
+      "page": "/about",
+      "timestamp": "2026-09-16T16:30:45.533Z",
+      "sessionId": "sess_jgbt4dt",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_6_0iwy",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-16T11:59:31.386Z",
+      "sessionId": "sess_gl8scrg",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_29_7_fvzo",
+      "page": "/about",
+      "timestamp": "2026-09-17T04:15:25.146Z",
+      "sessionId": "sess_lwvw94q",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_8_55iv",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-16T19:47:17.484Z",
+      "sessionId": "sess_40njmsi",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_29_9_wk6s",
+      "page": "/about",
+      "timestamp": "2026-09-17T09:31:39.171Z",
+      "sessionId": "sess_yl2m8os",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_29_10_6mn7",
+      "page": "/about",
+      "timestamp": "2026-09-17T10:08:39.417Z",
+      "sessionId": "sess_12sck5l",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_29_11_rfw2",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-16T21:03:26.239Z",
+      "sessionId": "sess_il39qsb",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_12_2ljx",
+      "page": "/contact",
+      "timestamp": "2026-09-16T17:23:21.942Z",
+      "sessionId": "sess_bomf0g6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_13_p4n7",
+      "page": "/",
+      "timestamp": "2026-09-16T13:54:05.325Z",
+      "sessionId": "sess_85udtkt",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_14_ofd9",
+      "page": "/products",
+      "timestamp": "2026-09-17T02:25:29.404Z",
+      "sessionId": "sess_mu7ehes",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_15_oaxb",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-16T14:42:31.633Z",
+      "sessionId": "sess_vlkz63c",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_16_5bz8",
+      "page": "/",
+      "timestamp": "2026-09-17T03:26:31.220Z",
+      "sessionId": "sess_k6e1pu5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_17_b5ob",
+      "page": "/about",
+      "timestamp": "2026-09-16T21:43:47.527Z",
+      "sessionId": "sess_mppurmu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_18_46tp",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-16T12:41:20.822Z",
+      "sessionId": "sess_vklvm2g",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_19_2nhk",
+      "page": "/",
+      "timestamp": "2026-09-16T14:03:48.084Z",
+      "sessionId": "sess_stifies",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_20_drjv",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-17T01:00:09.156Z",
+      "sessionId": "sess_0oeweru",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_21_8sln",
+      "page": "/",
+      "timestamp": "2026-09-16T22:19:52.631Z",
+      "sessionId": "sess_u7vye1e",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_22_vjvs",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-17T02:51:40.485Z",
+      "sessionId": "sess_qm2syg1",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_23_fudy",
+      "page": "/products",
+      "timestamp": "2026-09-16T17:45:18.373Z",
+      "sessionId": "sess_sh9xzcd",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_24_0riq",
+      "page": "/about",
+      "timestamp": "2026-09-16T21:56:54.136Z",
+      "sessionId": "sess_504ejzf",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_25_jfr6",
+      "page": "/products",
+      "timestamp": "2026-09-17T10:33:00.376Z",
+      "sessionId": "sess_1ix9840",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_26_wm37",
+      "page": "/gallery",
+      "timestamp": "2026-09-16T14:05:47.633Z",
+      "sessionId": "sess_cwz3usk",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_27_m0ny",
+      "page": "/contact",
+      "timestamp": "2026-09-16T19:32:40.193Z",
+      "sessionId": "sess_mqsa5oj",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_28_51jr",
+      "page": "/gallery",
+      "timestamp": "2026-09-16T19:59:43.605Z",
+      "sessionId": "sess_92nf3zz",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_29_zbbw",
+      "page": "/contact",
+      "timestamp": "2026-09-17T04:46:30.622Z",
+      "sessionId": "sess_7nf8hl1",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_29_30_pfg0",
+      "page": "/contact",
+      "timestamp": "2026-09-17T08:40:08.287Z",
+      "sessionId": "sess_7kr7j6x",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_31_en6a",
+      "page": "/products",
+      "timestamp": "2026-09-16T23:22:18.014Z",
+      "sessionId": "sess_rbzxpy5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_29_32_7vgw",
+      "page": "/gallery",
+      "timestamp": "2026-09-16T23:22:55.919Z",
+      "sessionId": "sess_fcdcf5k",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_29_33_28op",
+      "page": "/",
+      "timestamp": "2026-09-17T05:02:16.920Z",
+      "sessionId": "sess_bl5k80g",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_29_34_4vm6",
+      "page": "/gallery",
+      "timestamp": "2026-09-16T19:54:17.441Z",
+      "sessionId": "sess_lpr9a5m",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_0_ylw9",
+      "page": "/about",
+      "timestamp": "2026-09-18T06:10:45.034Z",
+      "sessionId": "sess_huzuvxv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_1_is5t",
+      "page": "/gallery",
+      "timestamp": "2026-09-18T09:52:25.406Z",
+      "sessionId": "sess_o8f4hxt",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_2_883v",
+      "page": "/about",
+      "timestamp": "2026-09-17T18:24:20.838Z",
+      "sessionId": "sess_voscl4t",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_3_vapp",
+      "page": "/about",
+      "timestamp": "2026-09-18T01:31:56.540Z",
+      "sessionId": "sess_u4qlojm",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_4_xto5",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-18T10:35:34.011Z",
+      "sessionId": "sess_4mqzjy5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_5_dcia",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-18T06:25:58.676Z",
+      "sessionId": "sess_4qe8tef",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_6_phr3",
+      "page": "/products",
+      "timestamp": "2026-09-18T05:46:28.103Z",
+      "sessionId": "sess_2im6flv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_7_1f0r",
+      "page": "/about",
+      "timestamp": "2026-09-17T22:44:09.998Z",
+      "sessionId": "sess_xoy6vuj",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_8_gnjc",
+      "page": "/",
+      "timestamp": "2026-09-18T00:35:39.004Z",
+      "sessionId": "sess_cj1gesi",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_9_8a0j",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-17T14:01:12.371Z",
+      "sessionId": "sess_mo54ujt",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_10_ns3h",
+      "page": "/gallery",
+      "timestamp": "2026-09-18T02:41:54.054Z",
+      "sessionId": "sess_szgw3qw",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_11_cqgz",
+      "page": "/products",
+      "timestamp": "2026-09-17T13:13:13.485Z",
+      "sessionId": "sess_olph79n",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_12_afzn",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-18T10:17:05.458Z",
+      "sessionId": "sess_baflv0s",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_13_g233",
+      "page": "/",
+      "timestamp": "2026-09-17T21:49:24.577Z",
+      "sessionId": "sess_s0mgvhp",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_14_ry57",
+      "page": "/about",
+      "timestamp": "2026-09-17T11:54:57.829Z",
+      "sessionId": "sess_oh9hy6f",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_15_awa6",
+      "page": "/about",
+      "timestamp": "2026-09-17T16:08:11.093Z",
+      "sessionId": "sess_l97e6xy",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_16_y4u2",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-17T15:42:37.547Z",
+      "sessionId": "sess_qi0katx",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_17_sods",
+      "page": "/",
+      "timestamp": "2026-09-17T15:01:16.126Z",
+      "sessionId": "sess_32o5jcn",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_18_wm3x",
+      "page": "/products",
+      "timestamp": "2026-09-18T10:37:57.913Z",
+      "sessionId": "sess_4dk9grx",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_19_r6kl",
+      "page": "/products",
+      "timestamp": "2026-09-18T07:00:19.115Z",
+      "sessionId": "sess_qqmvrua",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_20_34fh",
+      "page": "/products",
+      "timestamp": "2026-09-18T10:44:04.097Z",
+      "sessionId": "sess_2cqkido",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_21_hvfo",
+      "page": "/gallery",
+      "timestamp": "2026-09-17T19:54:41.832Z",
+      "sessionId": "sess_7pkmr2j",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_22_pylc",
+      "page": "/",
+      "timestamp": "2026-09-18T04:00:15.385Z",
+      "sessionId": "sess_npx6f4y",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_23_ejnw",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-18T09:01:17.963Z",
+      "sessionId": "sess_nxfp7zu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_24_qf72",
+      "page": "/contact",
+      "timestamp": "2026-09-17T15:40:55.349Z",
+      "sessionId": "sess_nihxhym",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_25_upj8",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-17T20:34:38.045Z",
+      "sessionId": "sess_zszyvw7",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_26_izoh",
+      "page": "/products",
+      "timestamp": "2026-09-18T04:06:46.619Z",
+      "sessionId": "sess_e1b903j",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_27_n0qz",
+      "page": "/contact",
+      "timestamp": "2026-09-17T18:23:23.362Z",
+      "sessionId": "sess_a2j8mc4",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_28_lbud",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-18T06:17:05.313Z",
+      "sessionId": "sess_9hiog3g",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_28_29_2coz",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-17T19:20:29.227Z",
+      "sessionId": "sess_bst6wh8",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_28_30_bayh",
+      "page": "/gallery",
+      "timestamp": "2026-09-18T02:25:14.369Z",
+      "sessionId": "sess_19ao0za",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_31_axv2",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-17T11:13:48.616Z",
+      "sessionId": "sess_07l9f1i",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_28_32_6dpc",
+      "page": "/contact",
+      "timestamp": "2026-09-17T21:26:40.534Z",
+      "sessionId": "sess_twplinj",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_27_0_i2ap",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-18T13:43:48.301Z",
+      "sessionId": "sess_r5fcglv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_1_jd9j",
+      "page": "/products",
+      "timestamp": "2026-09-18T12:24:38.336Z",
+      "sessionId": "sess_51g2j0a",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_27_2_ox0c",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-19T03:42:27.000Z",
+      "sessionId": "sess_uly594v",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_3_nxxd",
+      "page": "/gallery",
+      "timestamp": "2026-09-18T13:19:09.685Z",
+      "sessionId": "sess_ofm81qa",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_4_8hmm",
+      "page": "/contact",
+      "timestamp": "2026-09-19T08:32:44.507Z",
+      "sessionId": "sess_i78x7ma",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_27_5_5pgi",
+      "page": "/",
+      "timestamp": "2026-09-18T15:19:47.348Z",
+      "sessionId": "sess_pwl1av6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_6_z90y",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-18T22:44:22.640Z",
+      "sessionId": "sess_1ypedwv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_7_9o78",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-19T09:05:28.084Z",
+      "sessionId": "sess_l0wiltj",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_8_3ez6",
+      "page": "/gallery",
+      "timestamp": "2026-09-18T15:04:07.001Z",
+      "sessionId": "sess_m1e7wm7",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_9_gjqo",
+      "page": "/contact",
+      "timestamp": "2026-09-19T08:57:12.452Z",
+      "sessionId": "sess_tg25rlt",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_10_ery2",
+      "page": "/products",
+      "timestamp": "2026-09-18T22:55:13.535Z",
+      "sessionId": "sess_4skdxxk",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_11_ka01",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-19T04:53:32.737Z",
+      "sessionId": "sess_tt24utd",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_12_c2ex",
+      "page": "/",
+      "timestamp": "2026-09-18T10:49:51.056Z",
+      "sessionId": "sess_aexs2iq",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_13_szwi",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-18T14:38:28.807Z",
+      "sessionId": "sess_upqgdnq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_14_equ4",
+      "page": "/",
+      "timestamp": "2026-09-18T23:33:46.443Z",
+      "sessionId": "sess_2nt8xvv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_15_y7jm",
+      "page": "/about",
+      "timestamp": "2026-09-19T09:58:27.637Z",
+      "sessionId": "sess_5dw3y20",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_16_ct4v",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-18T12:41:57.152Z",
+      "sessionId": "sess_5x0jon1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_17_k3zc",
+      "page": "/about",
+      "timestamp": "2026-09-18T17:26:09.987Z",
+      "sessionId": "sess_xbhm54t",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_18_86n1",
+      "page": "/gallery",
+      "timestamp": "2026-09-19T07:20:21.669Z",
+      "sessionId": "sess_1gixh29",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_19_l02s",
+      "page": "/contact",
+      "timestamp": "2026-09-18T13:39:05.598Z",
+      "sessionId": "sess_h75xcjs",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_20_nyem",
+      "page": "/contact",
+      "timestamp": "2026-09-19T06:11:12.628Z",
+      "sessionId": "sess_93ojojf",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_21_p5zz",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-18T16:49:51.996Z",
+      "sessionId": "sess_iemvkqj",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_22_21ur",
+      "page": "/contact",
+      "timestamp": "2026-09-19T05:03:18.983Z",
+      "sessionId": "sess_yrxr9ke",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_23_9kcu",
+      "page": "/gallery",
+      "timestamp": "2026-09-19T05:55:50.891Z",
+      "sessionId": "sess_1mk1ztx",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_24_uu76",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-19T07:11:45.332Z",
+      "sessionId": "sess_g4v3c57",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_25_0vr9",
+      "page": "/",
+      "timestamp": "2026-09-18T22:53:44.487Z",
+      "sessionId": "sess_djt7jfa",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_26_mist",
+      "page": "/gallery",
+      "timestamp": "2026-09-18T14:59:38.060Z",
+      "sessionId": "sess_ajsjaj6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_27_27_zzc1",
+      "page": "/",
+      "timestamp": "2026-09-18T17:58:48.439Z",
+      "sessionId": "sess_v7bkfhv",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_27_28_y1qa",
+      "page": "/about",
+      "timestamp": "2026-09-19T03:00:41.499Z",
+      "sessionId": "sess_e0agiln",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_27_29_ld65",
+      "page": "/gallery",
+      "timestamp": "2026-09-18T21:06:09.366Z",
+      "sessionId": "sess_5xns2re",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_27_30_ytgh",
+      "page": "/about",
+      "timestamp": "2026-09-19T00:24:12.111Z",
+      "sessionId": "sess_o5mle8i",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_27_31_p3zh",
+      "page": "/products",
+      "timestamp": "2026-09-18T11:21:42.596Z",
+      "sessionId": "sess_fwxcn9s",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_0_78iv",
+      "page": "/contact",
+      "timestamp": "2026-09-19T17:49:53.229Z",
+      "sessionId": "sess_r5ye6uu",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_26_1_wjb4",
+      "page": "/products",
+      "timestamp": "2026-09-19T16:21:44.869Z",
+      "sessionId": "sess_qishbjq",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_2_adoj",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-20T10:25:07.925Z",
+      "sessionId": "sess_hxsbqg0",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_26_3_kww1",
+      "page": "/products",
+      "timestamp": "2026-09-19T21:39:00.097Z",
+      "sessionId": "sess_gcex2c6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_4_m3r5",
+      "page": "/contact",
+      "timestamp": "2026-09-19T16:04:59.691Z",
+      "sessionId": "sess_hq3j0mh",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_26_5_uova",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-19T13:27:15.916Z",
+      "sessionId": "sess_tsz7681",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_26_6_pc7x",
+      "page": "/",
+      "timestamp": "2026-09-19T16:16:15.622Z",
+      "sessionId": "sess_2za5r2a",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_26_7_8pez",
+      "page": "/",
+      "timestamp": "2026-09-20T02:52:22.233Z",
+      "sessionId": "sess_dxc49y7",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_26_8_63yx",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-19T19:15:51.307Z",
+      "sessionId": "sess_pzln1u5",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_9_lbxb",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-20T08:37:16.273Z",
+      "sessionId": "sess_5xmm4lk",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_26_10_khdo",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-19T17:37:04.528Z",
+      "sessionId": "sess_bkk5b3g",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_11_y8jj",
+      "page": "/contact",
+      "timestamp": "2026-09-19T22:43:19.474Z",
+      "sessionId": "sess_o497jk1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_12_zass",
+      "page": "/about",
+      "timestamp": "2026-09-19T19:34:34.516Z",
+      "sessionId": "sess_1ozxo9a",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_13_r43x",
+      "page": "/about",
+      "timestamp": "2026-09-20T06:10:17.322Z",
+      "sessionId": "sess_ig5y2ao",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_14_0tvr",
+      "page": "/contact",
+      "timestamp": "2026-09-20T09:04:40.034Z",
+      "sessionId": "sess_je3ohah",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_26_15_f455",
+      "page": "/",
+      "timestamp": "2026-09-20T01:41:27.977Z",
+      "sessionId": "sess_503wbmg",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_16_zx7y",
+      "page": "/",
+      "timestamp": "2026-09-19T22:48:04.450Z",
+      "sessionId": "sess_6n6rth5",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_26_17_dfgj",
+      "page": "/",
+      "timestamp": "2026-09-20T10:32:44.437Z",
+      "sessionId": "sess_69nb4dq",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_18_hx3r",
+      "page": "/products",
+      "timestamp": "2026-09-19T21:06:14.747Z",
+      "sessionId": "sess_yuqy0za",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_26_19_81ku",
+      "page": "/",
+      "timestamp": "2026-09-20T07:15:34.213Z",
+      "sessionId": "sess_mva6j0s",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_20_30qp",
+      "page": "/products",
+      "timestamp": "2026-09-19T16:20:42.485Z",
+      "sessionId": "sess_bn0jyog",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_26_21_x9qo",
+      "page": "/",
+      "timestamp": "2026-09-20T00:49:19.052Z",
+      "sessionId": "sess_brycun3",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_26_22_p3zm",
+      "page": "/gallery",
+      "timestamp": "2026-09-19T19:41:25.666Z",
+      "sessionId": "sess_fqv4bec",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_26_23_mwdu",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-19T23:51:34.149Z",
+      "sessionId": "sess_svpphcs",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_26_24_vd5a",
+      "page": "/products",
+      "timestamp": "2026-09-19T11:24:27.939Z",
+      "sessionId": "sess_gchh3z2",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_26_25_irl0",
+      "page": "/products",
+      "timestamp": "2026-09-20T03:31:03.369Z",
+      "sessionId": "sess_00c80ul",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_26_26_nuvq",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-19T23:36:35.004Z",
+      "sessionId": "sess_f4avmm3",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_25_0_eaw4",
+      "page": "/",
+      "timestamp": "2026-09-20T17:54:20.584Z",
+      "sessionId": "sess_1rekqlw",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_25_1_fo87",
+      "page": "/",
+      "timestamp": "2026-09-21T09:59:44.638Z",
+      "sessionId": "sess_01jqjkj",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_25_2_l0de",
+      "page": "/products",
+      "timestamp": "2026-09-20T13:56:55.476Z",
+      "sessionId": "sess_xgul0qw",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_25_3_2vc0",
+      "page": "/products",
+      "timestamp": "2026-09-20T12:30:25.711Z",
+      "sessionId": "sess_av9575s",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_4_5zyx",
+      "page": "/contact",
+      "timestamp": "2026-09-21T08:09:35.035Z",
+      "sessionId": "sess_hcrb7rc",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_25_5_q2wk",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-20T11:30:21.655Z",
+      "sessionId": "sess_fm3kg6l",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_6_n49n",
+      "page": "/products",
+      "timestamp": "2026-09-21T10:29:26.888Z",
+      "sessionId": "sess_oezh9m6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_25_7_0rgv",
+      "page": "/contact",
+      "timestamp": "2026-09-21T01:29:12.438Z",
+      "sessionId": "sess_kwguy7o",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_25_8_omeh",
+      "page": "/gallery",
+      "timestamp": "2026-09-20T18:37:58.817Z",
+      "sessionId": "sess_why1rkx",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_25_9_716y",
+      "page": "/contact",
+      "timestamp": "2026-09-20T12:58:07.649Z",
+      "sessionId": "sess_6ussgt6",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_10_lnia",
+      "page": "/about",
+      "timestamp": "2026-09-20T11:27:01.696Z",
+      "sessionId": "sess_bzfsp9r",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_25_11_la49",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-21T01:59:21.208Z",
+      "sessionId": "sess_moyfj5r",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_12_179k",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-20T17:47:37.119Z",
+      "sessionId": "sess_xq3hbn5",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_25_13_v0v1",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-21T03:19:29.565Z",
+      "sessionId": "sess_1joh2kh",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_14_ewyh",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-21T08:25:30.428Z",
+      "sessionId": "sess_s4cpftq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_25_15_4bu7",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-20T10:53:22.447Z",
+      "sessionId": "sess_3tjrn4q",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_25_16_w7u8",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-20T16:41:51.157Z",
+      "sessionId": "sess_kwmkgw9",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_17_zx7q",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-20T18:32:53.634Z",
+      "sessionId": "sess_zka5d58",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_18_4sk7",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-21T09:28:43.628Z",
+      "sessionId": "sess_5vaf1e6",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_19_03eb",
+      "page": "/about",
+      "timestamp": "2026-09-21T02:26:16.288Z",
+      "sessionId": "sess_mb2kvyp",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_20_jd55",
+      "page": "/about",
+      "timestamp": "2026-09-21T06:39:52.546Z",
+      "sessionId": "sess_qc4cr8w",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_25_21_gnl0",
+      "page": "/gallery",
+      "timestamp": "2026-09-20T12:34:01.230Z",
+      "sessionId": "sess_i2fegmv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_25_22_n167",
+      "page": "/contact",
+      "timestamp": "2026-09-20T12:23:29.508Z",
+      "sessionId": "sess_thzrx7t",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_25_23_xsn4",
+      "page": "/contact",
+      "timestamp": "2026-09-20T18:11:15.828Z",
+      "sessionId": "sess_ajcm4fb",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_25_24_hq0y",
+      "page": "/products",
+      "timestamp": "2026-09-21T01:19:02.811Z",
+      "sessionId": "sess_89mfxsu",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_0_ao2a",
+      "page": "/about",
+      "timestamp": "2026-09-22T00:02:38.090Z",
+      "sessionId": "sess_iux297t",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_1_9x3v",
+      "page": "/products",
+      "timestamp": "2026-09-22T04:37:46.863Z",
+      "sessionId": "sess_ray55dp",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_2_15pv",
+      "page": "/products",
+      "timestamp": "2026-09-22T06:00:40.627Z",
+      "sessionId": "sess_tewoeto",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_3_ecmv",
+      "page": "/about",
+      "timestamp": "2026-09-22T09:04:59.554Z",
+      "sessionId": "sess_s1iwofv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_4_m5bc",
+      "page": "/gallery",
+      "timestamp": "2026-09-22T02:28:42.878Z",
+      "sessionId": "sess_bw56kaz",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_5_vkl5",
+      "page": "/about",
+      "timestamp": "2026-09-22T03:52:59.211Z",
+      "sessionId": "sess_q437dq3",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_6_4a45",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-21T20:25:23.320Z",
+      "sessionId": "sess_q37hx82",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_7_9k0a",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-22T02:21:58.051Z",
+      "sessionId": "sess_r9kl204",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_8_jrat",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-21T11:16:40.609Z",
+      "sessionId": "sess_pujle96",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_9_uk8t",
+      "page": "/products",
+      "timestamp": "2026-09-21T11:45:08.443Z",
+      "sessionId": "sess_dj3lptv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_10_wah5",
+      "page": "/",
+      "timestamp": "2026-09-21T13:09:23.507Z",
+      "sessionId": "sess_inyewu4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_11_voq3",
+      "page": "/about",
+      "timestamp": "2026-09-22T09:52:52.342Z",
+      "sessionId": "sess_u6avmgu",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_12_ib33",
+      "page": "/contact",
+      "timestamp": "2026-09-22T08:54:57.355Z",
+      "sessionId": "sess_3sv2o07",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_13_akoj",
+      "page": "/products",
+      "timestamp": "2026-09-21T22:34:59.039Z",
+      "sessionId": "sess_8m4s6gl",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_14_t0v4",
+      "page": "/about",
+      "timestamp": "2026-09-21T14:53:27.327Z",
+      "sessionId": "sess_ccwbpgo",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_15_8pfy",
+      "page": "/gallery",
+      "timestamp": "2026-09-22T07:02:05.435Z",
+      "sessionId": "sess_d3jl3ye",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_16_9iqz",
+      "page": "/products",
+      "timestamp": "2026-09-22T07:39:53.069Z",
+      "sessionId": "sess_xlrduzu",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_17_urgb",
+      "page": "/",
+      "timestamp": "2026-09-21T13:04:10.945Z",
+      "sessionId": "sess_eu1tdfr",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_18_p1fv",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-22T04:32:49.236Z",
+      "sessionId": "sess_boll5p0",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_19_1ad2",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-21T11:54:09.628Z",
+      "sessionId": "sess_qt3ztas",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_20_s4ah",
+      "page": "/",
+      "timestamp": "2026-09-21T11:36:54.601Z",
+      "sessionId": "sess_6avfm9q",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_21_ob6s",
+      "page": "/",
+      "timestamp": "2026-09-22T09:55:23.435Z",
+      "sessionId": "sess_jr5oy7q",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_22_fo0c",
+      "page": "/about",
+      "timestamp": "2026-09-21T13:55:42.047Z",
+      "sessionId": "sess_itzbxyd",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_23_c7yl",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-21T14:53:11.091Z",
+      "sessionId": "sess_wtb6k2h",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_24_agsg",
+      "page": "/products",
+      "timestamp": "2026-09-22T01:57:50.151Z",
+      "sessionId": "sess_ru0isym",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_25_azpw",
+      "page": "/contact",
+      "timestamp": "2026-09-22T04:59:01.503Z",
+      "sessionId": "sess_ccydxry",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_26_jtql",
+      "page": "/products",
+      "timestamp": "2026-09-21T11:31:36.950Z",
+      "sessionId": "sess_2xaquqa",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_27_pwjr",
+      "page": "/gallery",
+      "timestamp": "2026-09-21T13:57:06.638Z",
+      "sessionId": "sess_50frbd2",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_28_hx43",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-21T20:56:34.189Z",
+      "sessionId": "sess_hco634i",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_29_mrnb",
+      "page": "/about",
+      "timestamp": "2026-09-22T09:21:48.499Z",
+      "sessionId": "sess_1tkdt1q",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_30_8jt6",
+      "page": "/products",
+      "timestamp": "2026-09-21T11:31:26.415Z",
+      "sessionId": "sess_iim6est",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_31_njb2",
+      "page": "/about",
+      "timestamp": "2026-09-22T03:21:19.996Z",
+      "sessionId": "sess_oyffr4z",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_32_zh66",
+      "page": "/about",
+      "timestamp": "2026-09-22T02:00:50.630Z",
+      "sessionId": "sess_8wk683k",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_33_vveu",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-21T20:40:26.485Z",
+      "sessionId": "sess_55xztar",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_34_5uaq",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-21T15:47:34.584Z",
+      "sessionId": "sess_bx2npgf",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_24_35_bd7h",
+      "page": "/contact",
+      "timestamp": "2026-09-22T09:51:11.331Z",
+      "sessionId": "sess_sl48jcq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_24_36_31g8",
+      "page": "/",
+      "timestamp": "2026-09-22T03:54:43.353Z",
+      "sessionId": "sess_l98som0",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_37_uupn",
+      "page": "/",
+      "timestamp": "2026-09-22T07:03:34.284Z",
+      "sessionId": "sess_rws3kak",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_38_p8xt",
+      "page": "/contact",
+      "timestamp": "2026-09-21T21:40:03.516Z",
+      "sessionId": "sess_hejfp9t",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_39_nl2y",
+      "page": "/contact",
+      "timestamp": "2026-09-22T10:03:37.599Z",
+      "sessionId": "sess_4yh13vr",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_24_40_aasi",
+      "page": "/about",
+      "timestamp": "2026-09-22T07:30:34.027Z",
+      "sessionId": "sess_qniw9ts",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_0_nban",
+      "page": "/products",
+      "timestamp": "2026-09-22T21:41:58.312Z",
+      "sessionId": "sess_nvbjiux",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_1_bqf9",
+      "page": "/gallery",
+      "timestamp": "2026-09-23T09:50:48.231Z",
+      "sessionId": "sess_xq1arf1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_23_2_1bpz",
+      "page": "/products",
+      "timestamp": "2026-09-22T14:49:08.070Z",
+      "sessionId": "sess_h30gmgf",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_3_x9uk",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-22T12:36:32.315Z",
+      "sessionId": "sess_yjr10nz",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_4_tqsb",
+      "page": "/products",
+      "timestamp": "2026-09-23T00:43:03.857Z",
+      "sessionId": "sess_eshn2dy",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_23_5_b4o6",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-22T23:45:02.895Z",
+      "sessionId": "sess_j0i1fzj",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_23_6_snq7",
+      "page": "/",
+      "timestamp": "2026-09-22T14:22:27.914Z",
+      "sessionId": "sess_y2257bq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_7_u5ys",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-23T10:14:10.935Z",
+      "sessionId": "sess_630fqvz",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_8_11ha",
+      "page": "/gallery",
+      "timestamp": "2026-09-22T12:55:46.677Z",
+      "sessionId": "sess_9el4xuk",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_23_9_51rz",
+      "page": "/gallery",
+      "timestamp": "2026-09-23T04:39:00.898Z",
+      "sessionId": "sess_e5bvpjn",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_10_owzk",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-22T13:15:26.492Z",
+      "sessionId": "sess_l84v42y",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_23_11_0oj9",
+      "page": "/gallery",
+      "timestamp": "2026-09-22T20:06:23.461Z",
+      "sessionId": "sess_of8bdkf",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_23_12_5s8n",
+      "page": "/about",
+      "timestamp": "2026-09-22T22:40:26.713Z",
+      "sessionId": "sess_5mx1q2t",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_13_8d46",
+      "page": "/contact",
+      "timestamp": "2026-09-23T08:23:38.942Z",
+      "sessionId": "sess_20qqnwc",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_23_14_13b6",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-22T21:24:18.667Z",
+      "sessionId": "sess_cpt6wt8",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_23_15_fh6a",
+      "page": "/products",
+      "timestamp": "2026-09-22T11:12:07.567Z",
+      "sessionId": "sess_9xi0l6s",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_16_kxt4",
+      "page": "/about",
+      "timestamp": "2026-09-22T20:10:09.792Z",
+      "sessionId": "sess_e6tj7ck",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_23_17_xlbz",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-22T17:21:18.129Z",
+      "sessionId": "sess_2917aq8",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_22_0_5fpe",
+      "page": "/about",
+      "timestamp": "2026-09-24T03:08:52.270Z",
+      "sessionId": "sess_ov6obyj",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_22_1_zgjw",
+      "page": "/",
+      "timestamp": "2026-09-24T00:59:17.842Z",
+      "sessionId": "sess_zfktzaf",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_22_2_jywb",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-24T07:49:53.168Z",
+      "sessionId": "sess_24k5z50",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_22_3_72zv",
+      "page": "/about",
+      "timestamp": "2026-09-23T13:30:44.590Z",
+      "sessionId": "sess_du46v1q",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_22_4_2msy",
+      "page": "/products",
+      "timestamp": "2026-09-23T18:56:16.090Z",
+      "sessionId": "sess_2jlq5cf",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_22_5_48fj",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-23T20:38:05.253Z",
+      "sessionId": "sess_3lns2ee",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_22_6_5sd4",
+      "page": "/products",
+      "timestamp": "2026-09-24T04:42:05.336Z",
+      "sessionId": "sess_wm4gfxw",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_22_7_gxkr",
+      "page": "/about",
+      "timestamp": "2026-09-23T15:09:41.559Z",
+      "sessionId": "sess_d7mcp3e",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_22_8_wooq",
+      "page": "/contact",
+      "timestamp": "2026-09-24T01:27:06.511Z",
+      "sessionId": "sess_c7sl39n",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_22_9_t4yn",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-24T08:59:01.806Z",
+      "sessionId": "sess_muos2c8",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_22_10_hol7",
+      "page": "/gallery",
+      "timestamp": "2026-09-24T08:47:05.433Z",
+      "sessionId": "sess_xf6y7ss",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_22_11_99g5",
+      "page": "/",
+      "timestamp": "2026-09-24T03:07:07.240Z",
+      "sessionId": "sess_q9wa8sg",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_22_12_h7kd",
+      "page": "/",
+      "timestamp": "2026-09-23T22:56:52.138Z",
+      "sessionId": "sess_wyhu8yh",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_22_13_t319",
+      "page": "/gallery",
+      "timestamp": "2026-09-24T08:40:04.562Z",
+      "sessionId": "sess_ueog0ep",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_22_14_0p2k",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-23T16:23:18.300Z",
+      "sessionId": "sess_zc4130c",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_22_15_n85d",
+      "page": "/contact",
+      "timestamp": "2026-09-23T20:37:50.725Z",
+      "sessionId": "sess_5p3ctr2",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_22_16_z89w",
+      "page": "/products",
+      "timestamp": "2026-09-23T17:24:20.165Z",
+      "sessionId": "sess_e1fojp4",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_22_17_xz8o",
+      "page": "/gallery",
+      "timestamp": "2026-09-24T08:41:13.243Z",
+      "sessionId": "sess_attflbk",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_22_18_u2fn",
+      "page": "/products",
+      "timestamp": "2026-09-23T18:44:43.562Z",
+      "sessionId": "sess_a2xn9vk",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_22_19_efuu",
+      "page": "/gallery",
+      "timestamp": "2026-09-23T16:49:19.460Z",
+      "sessionId": "sess_2qjsgz2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_22_20_8gi3",
+      "page": "/gallery",
+      "timestamp": "2026-09-24T10:44:55.988Z",
+      "sessionId": "sess_qgddoyb",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_22_21_m70x",
+      "page": "/contact",
+      "timestamp": "2026-09-23T18:34:52.553Z",
+      "sessionId": "sess_540umka",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_22_22_xrhw",
+      "page": "/gallery",
+      "timestamp": "2026-09-23T20:54:02.337Z",
+      "sessionId": "sess_w835skp",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_22_23_pcsz",
+      "page": "/",
+      "timestamp": "2026-09-23T17:53:36.267Z",
+      "sessionId": "sess_bjqch3j",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_22_24_0ubo",
+      "page": "/products",
+      "timestamp": "2026-09-24T04:04:38.269Z",
+      "sessionId": "sess_dq6blor",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_0_22en",
+      "page": "/",
+      "timestamp": "2026-09-24T22:12:26.423Z",
+      "sessionId": "sess_sbgq5q5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_1_v0nd",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-24T13:10:17.798Z",
+      "sessionId": "sess_amiqssd",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_2_cy1y",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-24T23:36:43.402Z",
+      "sessionId": "sess_3c8ya3x",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_3_2v38",
+      "page": "/",
+      "timestamp": "2026-09-24T16:50:01.953Z",
+      "sessionId": "sess_odzfpfn",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_4_cobc",
+      "page": "/gallery",
+      "timestamp": "2026-09-25T05:37:46.390Z",
+      "sessionId": "sess_0wcah84",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_21_5_r6gu",
+      "page": "/",
+      "timestamp": "2026-09-24T19:51:31.300Z",
+      "sessionId": "sess_fuq56xv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_6_escy",
+      "page": "/",
+      "timestamp": "2026-09-25T05:00:22.248Z",
+      "sessionId": "sess_bte38lf",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_7_na9x",
+      "page": "/gallery",
+      "timestamp": "2026-09-25T05:51:23.338Z",
+      "sessionId": "sess_rwwmcbd",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_21_8_k4ta",
+      "page": "/products",
+      "timestamp": "2026-09-24T19:02:41.057Z",
+      "sessionId": "sess_fp2nqll",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_9_ay5m",
+      "page": "/about",
+      "timestamp": "2026-09-24T17:52:25.780Z",
+      "sessionId": "sess_e8trraf",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_10_03xj",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-25T02:06:02.161Z",
+      "sessionId": "sess_u7d32rd",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_11_uugr",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-24T19:40:05.710Z",
+      "sessionId": "sess_llw2shr",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_21_12_5d5t",
+      "page": "/products",
+      "timestamp": "2026-09-24T16:40:49.170Z",
+      "sessionId": "sess_8xpa9v5",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_21_13_iagh",
+      "page": "/",
+      "timestamp": "2026-09-24T17:08:53.927Z",
+      "sessionId": "sess_4qirswg",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_21_14_61hk",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-24T11:52:42.748Z",
+      "sessionId": "sess_mx7jom0",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_15_ronp",
+      "page": "/contact",
+      "timestamp": "2026-09-24T21:50:58.810Z",
+      "sessionId": "sess_m5fzsrr",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_16_9d8h",
+      "page": "/",
+      "timestamp": "2026-09-25T06:13:29.877Z",
+      "sessionId": "sess_ut7d2qy",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_17_kjbp",
+      "page": "/gallery",
+      "timestamp": "2026-09-25T07:49:43.988Z",
+      "sessionId": "sess_8io4nnn",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_21_18_yiyi",
+      "page": "/gallery",
+      "timestamp": "2026-09-25T02:55:18.679Z",
+      "sessionId": "sess_s4ehjbh",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_19_0jfx",
+      "page": "/about",
+      "timestamp": "2026-09-24T21:08:12.950Z",
+      "sessionId": "sess_tm6nlyp",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_20_qknh",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-25T08:17:55.999Z",
+      "sessionId": "sess_89s8q8a",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_21_4lac",
+      "page": "/",
+      "timestamp": "2026-09-25T01:05:39.722Z",
+      "sessionId": "sess_5yyqur8",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_22_4ed5",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-24T17:40:55.142Z",
+      "sessionId": "sess_cin6ui2",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_23_hl61",
+      "page": "/contact",
+      "timestamp": "2026-09-25T05:16:35.989Z",
+      "sessionId": "sess_6pej45n",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_24_67w3",
+      "page": "/",
+      "timestamp": "2026-09-24T11:49:05.679Z",
+      "sessionId": "sess_b15zssf",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_21_25_ntc6",
+      "page": "/",
+      "timestamp": "2026-09-24T13:40:43.552Z",
+      "sessionId": "sess_ff27wil",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_26_aeqh",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-24T22:36:01.639Z",
+      "sessionId": "sess_qzo2r07",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_21_27_ay1z",
+      "page": "/",
+      "timestamp": "2026-09-25T03:18:11.326Z",
+      "sessionId": "sess_0pj6ziw",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_21_28_las5",
+      "page": "/products",
+      "timestamp": "2026-09-25T08:08:00.228Z",
+      "sessionId": "sess_crcrfis",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_29_73dv",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-25T04:19:58.616Z",
+      "sessionId": "sess_35dqasl",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_21_30_g0ci",
+      "page": "/contact",
+      "timestamp": "2026-09-24T18:36:50.785Z",
+      "sessionId": "sess_hde8vst",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_0_k6wi",
+      "page": "/",
+      "timestamp": "2026-09-26T07:45:59.868Z",
+      "sessionId": "sess_hf0xxvx",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_20_1_2ye4",
+      "page": "/about",
+      "timestamp": "2026-09-25T13:58:30.080Z",
+      "sessionId": "sess_86kmuug",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_20_2_rak1",
+      "page": "/gallery",
+      "timestamp": "2026-09-26T10:28:00.668Z",
+      "sessionId": "sess_lecyh39",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_20_3_l9xi",
+      "page": "/gallery",
+      "timestamp": "2026-09-26T01:32:42.919Z",
+      "sessionId": "sess_z1a2osr",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_4_vvvt",
+      "page": "/",
+      "timestamp": "2026-09-26T10:42:33.016Z",
+      "sessionId": "sess_9kpa03h",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_20_5_jgzr",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-25T16:35:22.039Z",
+      "sessionId": "sess_hsy3qjc",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_20_6_svdu",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-26T08:10:55.666Z",
+      "sessionId": "sess_rul9hc6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_20_7_qjk5",
+      "page": "/contact",
+      "timestamp": "2026-09-25T15:34:45.532Z",
+      "sessionId": "sess_4z43tji",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_8_yfjb",
+      "page": "/products",
+      "timestamp": "2026-09-25T17:51:35.624Z",
+      "sessionId": "sess_btph6mn",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_20_9_7i6l",
+      "page": "/",
+      "timestamp": "2026-09-26T01:45:14.871Z",
+      "sessionId": "sess_97gwt8b",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_10_8nfn",
+      "page": "/contact",
+      "timestamp": "2026-09-25T19:45:39.670Z",
+      "sessionId": "sess_0z7idso",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_11_zzqc",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-25T15:25:21.608Z",
+      "sessionId": "sess_ytkmy2v",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_20_12_i2sg",
+      "page": "/products",
+      "timestamp": "2026-09-26T02:00:36.817Z",
+      "sessionId": "sess_oxir7yj",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_20_13_e0xq",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-26T05:31:20.209Z",
+      "sessionId": "sess_d8al5xz",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_14_95ls",
+      "page": "/about",
+      "timestamp": "2026-09-25T14:38:43.831Z",
+      "sessionId": "sess_9a0f4t2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_15_6ur4",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-25T18:11:13.711Z",
+      "sessionId": "sess_bcrwucv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_20_16_g3ff",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-26T06:34:07.686Z",
+      "sessionId": "sess_hsd1fmo",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_20_17_6pro",
+      "page": "/products",
+      "timestamp": "2026-09-25T23:36:09.296Z",
+      "sessionId": "sess_look99p",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_18_4kpi",
+      "page": "/about",
+      "timestamp": "2026-09-25T21:00:47.797Z",
+      "sessionId": "sess_wtcfnxu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_20_19_eoig",
+      "page": "/",
+      "timestamp": "2026-09-25T21:41:05.536Z",
+      "sessionId": "sess_o1wbgjm",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_20_20_falm",
+      "page": "/about",
+      "timestamp": "2026-09-26T05:08:35.285Z",
+      "sessionId": "sess_4zfg1bu",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_21_e27k",
+      "page": "/products",
+      "timestamp": "2026-09-26T03:05:10.362Z",
+      "sessionId": "sess_o3f1wo3",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_20_22_jx2f",
+      "page": "/products",
+      "timestamp": "2026-09-25T23:17:34.092Z",
+      "sessionId": "sess_1ie920n",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_0_tsww",
+      "page": "/contact",
+      "timestamp": "2026-09-27T06:57:40.082Z",
+      "sessionId": "sess_jbs8efv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_1_lhtf",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-26T12:26:22.582Z",
+      "sessionId": "sess_gcnb37y",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_2_3ndp",
+      "page": "/products",
+      "timestamp": "2026-09-26T23:19:40.667Z",
+      "sessionId": "sess_auoer2t",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_3_p0mj",
+      "page": "/products",
+      "timestamp": "2026-09-27T10:00:56.410Z",
+      "sessionId": "sess_mtiuh2f",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_4_ve53",
+      "page": "/",
+      "timestamp": "2026-09-26T23:52:33.386Z",
+      "sessionId": "sess_u8006j0",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_19_5_nxds",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-26T13:41:51.409Z",
+      "sessionId": "sess_9hjb8ga",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_19_6_tljj",
+      "page": "/gallery",
+      "timestamp": "2026-09-26T13:00:57.757Z",
+      "sessionId": "sess_hklgh16",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_7_qrph",
+      "page": "/products",
+      "timestamp": "2026-09-27T07:33:38.412Z",
+      "sessionId": "sess_hb7129w",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_19_8_nu6q",
+      "page": "/products",
+      "timestamp": "2026-09-26T14:14:20.433Z",
+      "sessionId": "sess_hveb6tl",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_19_9_ne8s",
+      "page": "/contact",
+      "timestamp": "2026-09-27T04:44:06.506Z",
+      "sessionId": "sess_4tydp0w",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_10_bf6a",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-26T11:51:27.879Z",
+      "sessionId": "sess_wi3jv0n",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_11_l2nb",
+      "page": "/contact",
+      "timestamp": "2026-09-26T16:54:45.502Z",
+      "sessionId": "sess_6zwn247",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_12_jk5i",
+      "page": "/products",
+      "timestamp": "2026-09-27T02:32:38.060Z",
+      "sessionId": "sess_nfun2y5",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_13_73c3",
+      "page": "/contact",
+      "timestamp": "2026-09-26T20:39:04.987Z",
+      "sessionId": "sess_f3ni8fm",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_14_iqgp",
+      "page": "/about",
+      "timestamp": "2026-09-27T03:39:03.900Z",
+      "sessionId": "sess_ejsiyl3",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_15_6im2",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-27T08:15:17.536Z",
+      "sessionId": "sess_o6tjla5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_19_16_2efq",
+      "page": "/about",
+      "timestamp": "2026-09-26T15:13:38.424Z",
+      "sessionId": "sess_wzicay2",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_17_rlzy",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-26T17:09:49.068Z",
+      "sessionId": "sess_9e6l7v2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_19_18_dmnt",
+      "page": "/about",
+      "timestamp": "2026-09-26T14:09:58.344Z",
+      "sessionId": "sess_9ga9gt4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_19_cmim",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-27T05:14:48.891Z",
+      "sessionId": "sess_vydq7b0",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_20_n3cx",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-27T02:22:36.842Z",
+      "sessionId": "sess_4tm9mgr",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_21_vlqk",
+      "page": "/",
+      "timestamp": "2026-09-26T14:06:20.737Z",
+      "sessionId": "sess_b3qs860",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_19_22_ozug",
+      "page": "/about",
+      "timestamp": "2026-09-27T02:46:54.408Z",
+      "sessionId": "sess_nzs8i4k",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_23_jcdg",
+      "page": "/",
+      "timestamp": "2026-09-26T12:19:15.035Z",
+      "sessionId": "sess_z65z9wp",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_24_0dtg",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-26T23:10:43.050Z",
+      "sessionId": "sess_az0wxz2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_19_25_kjgg",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-27T02:21:34.414Z",
+      "sessionId": "sess_bmwgkdj",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_26_y1mp",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-26T19:48:17.841Z",
+      "sessionId": "sess_javu1gv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_27_zpcn",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-26T19:08:01.478Z",
+      "sessionId": "sess_fi8mog4",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_19_28_ye9k",
+      "page": "/gallery",
+      "timestamp": "2026-09-26T17:56:31.303Z",
+      "sessionId": "sess_r3krpp4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_29_60rt",
+      "page": "/",
+      "timestamp": "2026-09-26T12:37:02.593Z",
+      "sessionId": "sess_n3c4wlu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_19_30_hpck",
+      "page": "/about",
+      "timestamp": "2026-09-26T18:50:42.557Z",
+      "sessionId": "sess_x9xhmi4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_19_31_v5rd",
+      "page": "/gallery",
+      "timestamp": "2026-09-26T19:19:47.799Z",
+      "sessionId": "sess_2e8fyye",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_18_0_763k",
+      "page": "/",
+      "timestamp": "2026-09-28T10:12:24.872Z",
+      "sessionId": "sess_npka0ry",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_18_1_n91p",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-28T09:40:13.673Z",
+      "sessionId": "sess_rzi40zt",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_18_2_x130",
+      "page": "/contact",
+      "timestamp": "2026-09-27T12:33:02.456Z",
+      "sessionId": "sess_lbpx5ui",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_18_3_1nm5",
+      "page": "/",
+      "timestamp": "2026-09-27T11:19:06.685Z",
+      "sessionId": "sess_2dxb7u5",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_18_4_1a2z",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-28T04:11:51.796Z",
+      "sessionId": "sess_acjzal6",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_18_5_bsjy",
+      "page": "/",
+      "timestamp": "2026-09-28T07:49:48.258Z",
+      "sessionId": "sess_5dvvo9d",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_18_6_jzaw",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-28T02:03:47.490Z",
+      "sessionId": "sess_ae6ikdv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_18_7_7qwn",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-28T04:54:38.869Z",
+      "sessionId": "sess_jhwczjm",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_18_8_8561",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-28T08:45:07.552Z",
+      "sessionId": "sess_i7beqwh",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_18_9_5ng2",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-27T19:41:21.219Z",
+      "sessionId": "sess_mjut65p",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_18_10_tn15",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-27T18:57:34.632Z",
+      "sessionId": "sess_01my80h",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_18_11_huom",
+      "page": "/contact",
+      "timestamp": "2026-09-27T18:23:10.294Z",
+      "sessionId": "sess_18rt7xb",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_18_12_eu3t",
+      "page": "/products",
+      "timestamp": "2026-09-27T17:19:26.793Z",
+      "sessionId": "sess_fkribi7",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_18_13_znb6",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-27T18:03:53.308Z",
+      "sessionId": "sess_zrrmxds",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_18_14_eyay",
+      "page": "/about",
+      "timestamp": "2026-09-27T13:59:31.450Z",
+      "sessionId": "sess_fb0w4oo",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_18_15_0kep",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-27T19:36:45.977Z",
+      "sessionId": "sess_w8vsxtr",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_18_16_55ay",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-27T19:12:46.372Z",
+      "sessionId": "sess_vldl69i",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_18_17_ihg1",
+      "page": "/products",
+      "timestamp": "2026-09-28T10:03:08.735Z",
+      "sessionId": "sess_5dfc246",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_18_18_6fs0",
+      "page": "/contact",
+      "timestamp": "2026-09-28T00:33:22.984Z",
+      "sessionId": "sess_e4s9i27",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_18_19_zcpz",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-28T05:14:44.732Z",
+      "sessionId": "sess_kplytad",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_18_20_fzs9",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-27T15:42:51.649Z",
+      "sessionId": "sess_u59hfor",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_18_21_wwzn",
+      "page": "/",
+      "timestamp": "2026-09-28T04:16:55.889Z",
+      "sessionId": "sess_bry7ub4",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_18_22_qafs",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-28T07:07:25.440Z",
+      "sessionId": "sess_zbpa6qj",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_0_6v2v",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-28T17:38:04.479Z",
+      "sessionId": "sess_akwcwvu",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_1_cxbw",
+      "page": "/about",
+      "timestamp": "2026-09-29T04:09:43.149Z",
+      "sessionId": "sess_hmorvvc",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_2_mvzo",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-29T08:15:37.016Z",
+      "sessionId": "sess_qsl7q43",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_17_3_u6ft",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-28T11:40:09.732Z",
+      "sessionId": "sess_c8311g3",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_17_4_c7f9",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-28T18:17:13.682Z",
+      "sessionId": "sess_sk1lljh",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_5_d6bx",
+      "page": "/gallery",
+      "timestamp": "2026-09-28T20:55:00.523Z",
+      "sessionId": "sess_1al4wbv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_6_86ak",
+      "page": "/",
+      "timestamp": "2026-09-29T07:40:18.250Z",
+      "sessionId": "sess_5dibnp2",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_7_ier0",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-29T07:39:37.579Z",
+      "sessionId": "sess_tbmt5j4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_8_a3u5",
+      "page": "/products",
+      "timestamp": "2026-09-29T07:43:24.281Z",
+      "sessionId": "sess_0x2df6r",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_9_rhpi",
+      "page": "/gallery",
+      "timestamp": "2026-09-28T18:57:17.392Z",
+      "sessionId": "sess_n52a5tb",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_10_qn9s",
+      "page": "/gallery",
+      "timestamp": "2026-09-29T08:40:39.836Z",
+      "sessionId": "sess_1gutfd1",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_17_11_urh9",
+      "page": "/",
+      "timestamp": "2026-09-29T02:01:50.829Z",
+      "sessionId": "sess_70s19tm",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_12_vwlb",
+      "page": "/contact",
+      "timestamp": "2026-09-28T17:47:04.228Z",
+      "sessionId": "sess_5ww6vi1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_13_3kks",
+      "page": "/gallery",
+      "timestamp": "2026-09-29T06:39:20.400Z",
+      "sessionId": "sess_a27xgvz",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_14_f0js",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-29T00:14:18.091Z",
+      "sessionId": "sess_mb0ofld",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_15_ip21",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-29T05:45:47.570Z",
+      "sessionId": "sess_2cqscr7",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_16_o1va",
+      "page": "/products",
+      "timestamp": "2026-09-29T04:24:21.593Z",
+      "sessionId": "sess_0ffsadi",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_17_vz8m",
+      "page": "/",
+      "timestamp": "2026-09-29T06:32:08.019Z",
+      "sessionId": "sess_z0hhaj4",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_18_prau",
+      "page": "/gallery",
+      "timestamp": "2026-09-28T16:13:48.783Z",
+      "sessionId": "sess_pr5bb1c",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_19_fh8m",
+      "page": "/products",
+      "timestamp": "2026-09-29T01:38:00.890Z",
+      "sessionId": "sess_pz39u0t",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_20_dapa",
+      "page": "/products",
+      "timestamp": "2026-09-28T16:43:56.643Z",
+      "sessionId": "sess_0crpccx",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_21_hk5y",
+      "page": "/gallery",
+      "timestamp": "2026-09-28T20:46:18.515Z",
+      "sessionId": "sess_986nudm",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_17_22_s7nr",
+      "page": "/gallery",
+      "timestamp": "2026-09-29T07:54:52.662Z",
+      "sessionId": "sess_57jnofy",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_23_wlva",
+      "page": "/about",
+      "timestamp": "2026-09-29T08:06:03.407Z",
+      "sessionId": "sess_73f0tce",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_24_0od7",
+      "page": "/contact",
+      "timestamp": "2026-09-29T04:43:17.881Z",
+      "sessionId": "sess_1tn5nzh",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_25_vsk3",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-28T14:03:55.866Z",
+      "sessionId": "sess_ztc0tr5",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_26_bwpv",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-28T14:43:42.091Z",
+      "sessionId": "sess_ayvcdh6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_27_rhjg",
+      "page": "/",
+      "timestamp": "2026-09-28T16:49:49.936Z",
+      "sessionId": "sess_uk0us68",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_17_28_wfbi",
+      "page": "/contact",
+      "timestamp": "2026-09-29T08:03:04.056Z",
+      "sessionId": "sess_2fako7a",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_17_29_dotw",
+      "page": "/contact",
+      "timestamp": "2026-09-28T19:45:52.842Z",
+      "sessionId": "sess_li7jd4j",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_30_b754",
+      "page": "/gallery",
+      "timestamp": "2026-09-29T00:29:17.511Z",
+      "sessionId": "sess_b6nmu2i",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_17_31_9l12",
+      "page": "/gallery",
+      "timestamp": "2026-09-29T02:24:57.738Z",
+      "sessionId": "sess_j9pxqrw",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_32_l1qk",
+      "page": "/contact",
+      "timestamp": "2026-09-29T01:29:49.983Z",
+      "sessionId": "sess_e365tr4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_33_htlh",
+      "page": "/products",
+      "timestamp": "2026-09-29T03:03:25.339Z",
+      "sessionId": "sess_zb5p8ca",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_17_34_i0ti",
+      "page": "/about",
+      "timestamp": "2026-09-28T21:14:21.178Z",
+      "sessionId": "sess_q8wwjp6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_17_35_rubc",
+      "page": "/gallery",
+      "timestamp": "2026-09-28T23:55:14.355Z",
+      "sessionId": "sess_ogccup8",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_36_bl4r",
+      "page": "/about",
+      "timestamp": "2026-09-28T12:03:04.019Z",
+      "sessionId": "sess_i9axbw5",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_17_37_exd0",
+      "page": "/about",
+      "timestamp": "2026-09-28T16:26:45.021Z",
+      "sessionId": "sess_hdztjql",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_0_xhgq",
+      "page": "/about",
+      "timestamp": "2026-09-29T23:16:17.599Z",
+      "sessionId": "sess_ulaig45",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_1_9212",
+      "page": "/products",
+      "timestamp": "2026-09-30T05:20:22.493Z",
+      "sessionId": "sess_ef39kua",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_2_dzzs",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-30T01:28:05.269Z",
+      "sessionId": "sess_xfom4yq",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_16_3_ujhv",
+      "page": "/products",
+      "timestamp": "2026-09-29T11:46:03.317Z",
+      "sessionId": "sess_go110da",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_4_sm6e",
+      "page": "/contact",
+      "timestamp": "2026-09-29T14:19:52.212Z",
+      "sessionId": "sess_07whtx5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_5_gfs8",
+      "page": "/about",
+      "timestamp": "2026-09-29T16:59:46.532Z",
+      "sessionId": "sess_k6t4as3",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_6_hwnj",
+      "page": "/gallery",
+      "timestamp": "2026-09-30T00:47:02.914Z",
+      "sessionId": "sess_rjktt74",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_16_7_c83y",
+      "page": "/",
+      "timestamp": "2026-09-29T20:57:28.938Z",
+      "sessionId": "sess_687y8h2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_8_0agu",
+      "page": "/contact",
+      "timestamp": "2026-09-29T13:01:11.372Z",
+      "sessionId": "sess_4ujwnf3",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_16_9_j3k4",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-29T22:22:17.090Z",
+      "sessionId": "sess_65wsue5",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_16_10_hlqt",
+      "page": "/",
+      "timestamp": "2026-09-29T11:31:00.367Z",
+      "sessionId": "sess_3fsfffj",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_16_11_5psl",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-30T06:28:06.890Z",
+      "sessionId": "sess_1w3iv5a",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_16_12_bv18",
+      "page": "/gallery",
+      "timestamp": "2026-09-29T16:19:48.882Z",
+      "sessionId": "sess_8hb1pwv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_16_13_43un",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-30T03:49:13.761Z",
+      "sessionId": "sess_uia80qh",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_14_bx9i",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-29T19:06:28.749Z",
+      "sessionId": "sess_l3t21zz",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_15_y40j",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-29T10:47:41.178Z",
+      "sessionId": "sess_4te2vp0",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_16_16_9742",
+      "page": "/",
+      "timestamp": "2026-09-30T03:44:11.889Z",
+      "sessionId": "sess_cfbmwn7",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_17_a4sh",
+      "page": "/",
+      "timestamp": "2026-09-29T21:55:01.531Z",
+      "sessionId": "sess_d445y33",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_18_rrte",
+      "page": "/about",
+      "timestamp": "2026-09-29T23:36:46.129Z",
+      "sessionId": "sess_33k7em9",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_16_19_c8nc",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-29T13:32:03.866Z",
+      "sessionId": "sess_n705e1d",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_16_20_q1pg",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-30T01:38:14.097Z",
+      "sessionId": "sess_23kwbta",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_16_21_mx4b",
+      "page": "/gallery",
+      "timestamp": "2026-09-29T11:42:11.340Z",
+      "sessionId": "sess_h8pelxo",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_16_22_gx39",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-30T02:45:29.733Z",
+      "sessionId": "sess_bsvzsfn",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_0_797j",
+      "page": "/",
+      "timestamp": "2026-09-30T17:11:15.880Z",
+      "sessionId": "sess_ai17gtv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_1_n4xl",
+      "page": "/contact",
+      "timestamp": "2026-10-01T05:41:38.757Z",
+      "sessionId": "sess_n4avjd6",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_2_xssb",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-30T11:06:40.864Z",
+      "sessionId": "sess_aiidou4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_3_62nm",
+      "page": "/",
+      "timestamp": "2026-09-30T22:56:07.216Z",
+      "sessionId": "sess_3c9o8n1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_4_fyj0",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-30T14:23:57.874Z",
+      "sessionId": "sess_6as20k5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_5_xr7j",
+      "page": "/",
+      "timestamp": "2026-09-30T15:23:43.895Z",
+      "sessionId": "sess_05zwclp",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_6_9mow",
+      "page": "/",
+      "timestamp": "2026-09-30T13:09:15.234Z",
+      "sessionId": "sess_f7fvnob",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_7_srzz",
+      "page": "/contact",
+      "timestamp": "2026-09-30T20:39:00.321Z",
+      "sessionId": "sess_py1fheo",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_8_qskc",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-30T20:32:18.571Z",
+      "sessionId": "sess_a0xy0o3",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_9_189j",
+      "page": "/about",
+      "timestamp": "2026-09-30T12:51:13.664Z",
+      "sessionId": "sess_t0zpfch",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_10_kfld",
+      "page": "/contact",
+      "timestamp": "2026-09-30T16:05:41.261Z",
+      "sessionId": "sess_dk0keh4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_11_areo",
+      "page": "/about",
+      "timestamp": "2026-09-30T15:35:03.616Z",
+      "sessionId": "sess_nz3q56n",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_12_2fsr",
+      "page": "/about",
+      "timestamp": "2026-10-01T10:43:38.026Z",
+      "sessionId": "sess_910089j",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_13_wgc7",
+      "page": "/about",
+      "timestamp": "2026-10-01T04:09:23.320Z",
+      "sessionId": "sess_6or4gll",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_14_6z84",
+      "page": "/gallery",
+      "timestamp": "2026-09-30T14:19:06.763Z",
+      "sessionId": "sess_iajfzp2",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_15_hlmw",
+      "page": "/about",
+      "timestamp": "2026-09-30T12:32:27.317Z",
+      "sessionId": "sess_8rnqkgw",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_16_mdzu",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-01T02:47:28.388Z",
+      "sessionId": "sess_b0knq29",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_17_ota2",
+      "page": "/gallery",
+      "timestamp": "2026-09-30T11:16:43.262Z",
+      "sessionId": "sess_dmkq0e5",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_18_77lp",
+      "page": "/products",
+      "timestamp": "2026-09-30T18:32:57.846Z",
+      "sessionId": "sess_hkemtgf",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_19_r3xl",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-09-30T15:59:18.781Z",
+      "sessionId": "sess_l1458hl",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_20_xl2e",
+      "page": "/gallery",
+      "timestamp": "2026-09-30T11:30:30.196Z",
+      "sessionId": "sess_jlenyfa",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_21_fr63",
+      "page": "/gallery",
+      "timestamp": "2026-09-30T20:39:10.413Z",
+      "sessionId": "sess_p98gshy",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_22_wzqj",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-30T10:52:48.315Z",
+      "sessionId": "sess_7b3u9yo",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_23_4f91",
+      "page": "/about",
+      "timestamp": "2026-09-30T19:09:16.029Z",
+      "sessionId": "sess_i9hwnr5",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_24_wmbq",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-30T12:23:17.852Z",
+      "sessionId": "sess_gyunyrz",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_25_1jor",
+      "page": "/",
+      "timestamp": "2026-10-01T01:22:11.474Z",
+      "sessionId": "sess_sag8gby",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_26_ueeb",
+      "page": "/products",
+      "timestamp": "2026-10-01T05:06:59.484Z",
+      "sessionId": "sess_vkc5mj0",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_27_4ssf",
+      "page": "/products",
+      "timestamp": "2026-10-01T08:46:29.800Z",
+      "sessionId": "sess_t394rnx",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_28_ug5t",
+      "page": "/",
+      "timestamp": "2026-10-01T01:54:56.470Z",
+      "sessionId": "sess_mh7zbsv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_29_w967",
+      "page": "/",
+      "timestamp": "2026-09-30T22:41:10.111Z",
+      "sessionId": "sess_algm3n8",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_30_8ig9",
+      "page": "/products",
+      "timestamp": "2026-10-01T00:47:59.978Z",
+      "sessionId": "sess_tm89wp4",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_31_co67",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-30T11:55:16.431Z",
+      "sessionId": "sess_u4lg28s",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_32_0vxi",
+      "page": "/contact",
+      "timestamp": "2026-10-01T04:36:27.251Z",
+      "sessionId": "sess_vsz6b7j",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_15_33_zl10",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-09-30T16:07:10.583Z",
+      "sessionId": "sess_i2ps3y5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_34_s85z",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-01T10:05:02.986Z",
+      "sessionId": "sess_7o80zdg",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_35_dbi7",
+      "page": "/gallery",
+      "timestamp": "2026-09-30T19:00:22.040Z",
+      "sessionId": "sess_be854ch",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_36_p9uj",
+      "page": "/products",
+      "timestamp": "2026-09-30T12:40:18.174Z",
+      "sessionId": "sess_6atxqnp",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_37_gw04",
+      "page": "/contact",
+      "timestamp": "2026-10-01T00:22:05.364Z",
+      "sessionId": "sess_oglsgrz",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_38_e0ar",
+      "page": "/products",
+      "timestamp": "2026-09-30T20:41:22.499Z",
+      "sessionId": "sess_qu1zhq7",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_15_39_d4ly",
+      "page": "/",
+      "timestamp": "2026-10-01T06:55:13.430Z",
+      "sessionId": "sess_7ss1x23",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_15_40_qee1",
+      "page": "/products",
+      "timestamp": "2026-09-30T20:30:47.022Z",
+      "sessionId": "sess_xb78drj",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_0_ls69",
+      "page": "/",
+      "timestamp": "2026-10-01T11:31:09.920Z",
+      "sessionId": "sess_5i9qkal",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_1_o9ac",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-02T08:22:55.857Z",
+      "sessionId": "sess_jnop84k",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_2_loio",
+      "page": "/gallery",
+      "timestamp": "2026-10-01T11:47:03.399Z",
+      "sessionId": "sess_rasg6mj",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_3_4b4t",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-01T14:57:51.118Z",
+      "sessionId": "sess_fnw305x",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_4_i48c",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-02T02:51:24.620Z",
+      "sessionId": "sess_lwayo3d",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_5_oqxq",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-02T02:01:42.308Z",
+      "sessionId": "sess_a9xz6pc",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_6_djsd",
+      "page": "/contact",
+      "timestamp": "2026-10-02T06:57:26.335Z",
+      "sessionId": "sess_p6iecqd",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_7_0w4n",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-02T06:39:09.512Z",
+      "sessionId": "sess_xg48ipa",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_8_nkk9",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-01T20:55:40.782Z",
+      "sessionId": "sess_lfcxhld",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_9_la77",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-01T22:49:46.580Z",
+      "sessionId": "sess_m3wtqyt",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_10_7fw8",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-02T08:24:03.318Z",
+      "sessionId": "sess_ofttrkm",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_11_c91w",
+      "page": "/gallery",
+      "timestamp": "2026-10-02T00:46:51.950Z",
+      "sessionId": "sess_51cw4hp",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_12_8w5q",
+      "page": "/",
+      "timestamp": "2026-10-01T15:14:26.819Z",
+      "sessionId": "sess_3o11f6h",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_13_lygm",
+      "page": "/products",
+      "timestamp": "2026-10-02T03:35:18.621Z",
+      "sessionId": "sess_f7ovcf1",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_14_94pa",
+      "page": "/products",
+      "timestamp": "2026-10-01T14:42:47.868Z",
+      "sessionId": "sess_b8zt8if",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_15_cto4",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-01T10:50:33.607Z",
+      "sessionId": "sess_e5hgip0",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_16_do1l",
+      "page": "/about",
+      "timestamp": "2026-10-01T14:07:19.228Z",
+      "sessionId": "sess_p29v0ay",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_17_3t1w",
+      "page": "/products",
+      "timestamp": "2026-10-01T13:32:12.456Z",
+      "sessionId": "sess_fnejzt0",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_18_2b0a",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-02T04:50:07.737Z",
+      "sessionId": "sess_3b07p8r",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_19_xtdx",
+      "page": "/",
+      "timestamp": "2026-10-01T14:16:56.637Z",
+      "sessionId": "sess_2s9rr51",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_20_h8ma",
+      "page": "/about",
+      "timestamp": "2026-10-01T22:32:37.640Z",
+      "sessionId": "sess_4e2qvt6",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_21_2r4x",
+      "page": "/",
+      "timestamp": "2026-10-02T10:10:50.439Z",
+      "sessionId": "sess_4qtzqmn",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_22_zb7d",
+      "page": "/products",
+      "timestamp": "2026-10-01T10:53:11.000Z",
+      "sessionId": "sess_388nfya",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_23_8k7h",
+      "page": "/about",
+      "timestamp": "2026-10-01T23:22:42.990Z",
+      "sessionId": "sess_30lp30j",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_24_oca6",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-02T08:32:39.316Z",
+      "sessionId": "sess_wyuizsf",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_25_sxd1",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-02T01:19:37.715Z",
+      "sessionId": "sess_9vnkyku",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_26_9u80",
+      "page": "/gallery",
+      "timestamp": "2026-10-02T10:41:22.744Z",
+      "sessionId": "sess_jgx59xv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_27_isk7",
+      "page": "/products",
+      "timestamp": "2026-10-02T00:21:06.016Z",
+      "sessionId": "sess_j4zo5dp",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_28_c7xb",
+      "page": "/products",
+      "timestamp": "2026-10-01T19:07:35.153Z",
+      "sessionId": "sess_sr8flry",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_29_3zj6",
+      "page": "/gallery",
+      "timestamp": "2026-10-01T23:20:56.687Z",
+      "sessionId": "sess_jsbymsv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_30_wal9",
+      "page": "/about",
+      "timestamp": "2026-10-02T03:03:03.164Z",
+      "sessionId": "sess_o3alb0f",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_31_fdkk",
+      "page": "/products",
+      "timestamp": "2026-10-01T12:00:38.275Z",
+      "sessionId": "sess_wjcvqyu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_14_32_ce45",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-01T19:55:46.073Z",
+      "sessionId": "sess_ezkqhnc",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_14_33_w5ax",
+      "page": "/gallery",
+      "timestamp": "2026-10-02T09:00:34.291Z",
+      "sessionId": "sess_qdkpnu1",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_34_g3mj",
+      "page": "/products",
+      "timestamp": "2026-10-02T01:59:32.247Z",
+      "sessionId": "sess_706uxkw",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_14_35_4zzo",
+      "page": "/contact",
+      "timestamp": "2026-10-01T19:46:47.095Z",
+      "sessionId": "sess_vvjrowo",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_0_zctp",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-02T20:31:00.357Z",
+      "sessionId": "sess_m5momqh",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_1_3goj",
+      "page": "/about",
+      "timestamp": "2026-10-02T12:51:40.232Z",
+      "sessionId": "sess_yw19uy8",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_2_gj6b",
+      "page": "/about",
+      "timestamp": "2026-10-03T04:05:31.515Z",
+      "sessionId": "sess_bl82qjs",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_3_vt8n",
+      "page": "/products",
+      "timestamp": "2026-10-02T15:30:23.873Z",
+      "sessionId": "sess_v72du2o",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_4_4ppo",
+      "page": "/contact",
+      "timestamp": "2026-10-03T00:19:08.496Z",
+      "sessionId": "sess_a93ohgt",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_13_5_l1it",
+      "page": "/products",
+      "timestamp": "2026-10-02T22:56:14.202Z",
+      "sessionId": "sess_dmlf9ye",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_6_zh6m",
+      "page": "/about",
+      "timestamp": "2026-10-02T17:23:35.077Z",
+      "sessionId": "sess_xkij8rj",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_13_7_xkfg",
+      "page": "/products",
+      "timestamp": "2026-10-03T08:08:53.194Z",
+      "sessionId": "sess_asqa72f",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_8_ymmz",
+      "page": "/",
+      "timestamp": "2026-10-02T18:39:28.335Z",
+      "sessionId": "sess_nl9n36l",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_9_j6ny",
+      "page": "/products",
+      "timestamp": "2026-10-03T01:51:31.956Z",
+      "sessionId": "sess_a36crwy",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_13_10_zh2q",
+      "page": "/products",
+      "timestamp": "2026-10-02T13:47:26.399Z",
+      "sessionId": "sess_140vng1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_11_y0ll",
+      "page": "/gallery",
+      "timestamp": "2026-10-03T09:13:16.435Z",
+      "sessionId": "sess_neyqml0",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_12_ikic",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-03T04:54:20.111Z",
+      "sessionId": "sess_w79y98c",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_13_13_hmb6",
+      "page": "/gallery",
+      "timestamp": "2026-10-02T16:36:59.790Z",
+      "sessionId": "sess_1ucet3g",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_14_cmve",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-03T08:07:23.232Z",
+      "sessionId": "sess_v4nfzhb",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_15_sl39",
+      "page": "/",
+      "timestamp": "2026-10-03T00:08:43.365Z",
+      "sessionId": "sess_6c8e7ht",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_16_h67z",
+      "page": "/about",
+      "timestamp": "2026-10-03T03:18:28.696Z",
+      "sessionId": "sess_8ig7ibm",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_17_nxrz",
+      "page": "/products",
+      "timestamp": "2026-10-02T17:12:37.091Z",
+      "sessionId": "sess_p0s3j37",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_18_okk5",
+      "page": "/products",
+      "timestamp": "2026-10-02T21:15:12.779Z",
+      "sessionId": "sess_vfqdr4h",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_19_pckv",
+      "page": "/about",
+      "timestamp": "2026-10-02T21:44:05.549Z",
+      "sessionId": "sess_emks6lf",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_20_2ptp",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-02T19:25:26.108Z",
+      "sessionId": "sess_6av2e8t",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_13_21_zrcp",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-03T01:14:12.938Z",
+      "sessionId": "sess_5kaalmy",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_22_mps4",
+      "page": "/gallery",
+      "timestamp": "2026-10-02T13:31:25.994Z",
+      "sessionId": "sess_bz7uuc5",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_23_ujiy",
+      "page": "/gallery",
+      "timestamp": "2026-10-03T00:40:17.357Z",
+      "sessionId": "sess_r77lfpz",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_13_24_nsif",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-03T06:22:43.048Z",
+      "sessionId": "sess_4qrv385",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_13_25_517l",
+      "page": "/about",
+      "timestamp": "2026-10-02T19:42:58.265Z",
+      "sessionId": "sess_o4isjzk",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_13_26_qoq1",
+      "page": "/products",
+      "timestamp": "2026-10-02T15:21:47.814Z",
+      "sessionId": "sess_gao64u1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_13_27_8ko4",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-02T12:30:53.627Z",
+      "sessionId": "sess_3x2bdym",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_28_fzsi",
+      "page": "/products",
+      "timestamp": "2026-10-03T10:22:40.477Z",
+      "sessionId": "sess_arrxfm7",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_13_29_rw7m",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-02T22:41:31.145Z",
+      "sessionId": "sess_z865ww9",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_30_u14j",
+      "page": "/about",
+      "timestamp": "2026-10-02T13:19:31.323Z",
+      "sessionId": "sess_v55tijf",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_31_9okl",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-02T11:43:42.692Z",
+      "sessionId": "sess_flg2g7f",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_32_i6b3",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-02T14:58:40.579Z",
+      "sessionId": "sess_tnzltx3",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_13_33_qap3",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-02T18:28:03.354Z",
+      "sessionId": "sess_w7svg7e",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_0_glre",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-04T05:31:12.242Z",
+      "sessionId": "sess_7lox9fv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_1_i56u",
+      "page": "/gallery",
+      "timestamp": "2026-10-03T12:26:02.112Z",
+      "sessionId": "sess_mjv87oz",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_2_3f7v",
+      "page": "/contact",
+      "timestamp": "2026-10-04T01:32:07.602Z",
+      "sessionId": "sess_fmvc4qb",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_3_qegy",
+      "page": "/about",
+      "timestamp": "2026-10-03T16:39:59.874Z",
+      "sessionId": "sess_7vjo1x4",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_4_tlsy",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T09:03:17.228Z",
+      "sessionId": "sess_f3w16vk",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_5_5x7z",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T01:32:10.279Z",
+      "sessionId": "sess_9go3ruc",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_6_5ygl",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-04T03:38:23.708Z",
+      "sessionId": "sess_2t1hw1m",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_7_c8zn",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-04T00:39:03.165Z",
+      "sessionId": "sess_xilie5e",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_8_cdie",
+      "page": "/about",
+      "timestamp": "2026-10-03T13:40:42.580Z",
+      "sessionId": "sess_7l1ib6x",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_9_bao8",
+      "page": "/products",
+      "timestamp": "2026-10-03T12:02:50.764Z",
+      "sessionId": "sess_h9wlm0r",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_10_gc2t",
+      "page": "/",
+      "timestamp": "2026-10-04T06:45:33.724Z",
+      "sessionId": "sess_umk2ysy",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_11_ien6",
+      "page": "/about",
+      "timestamp": "2026-10-03T15:18:00.028Z",
+      "sessionId": "sess_1r9uhw9",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_12_11jg",
+      "page": "/products",
+      "timestamp": "2026-10-03T23:29:00.198Z",
+      "sessionId": "sess_jr7ucs8",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_13_e166",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-04T04:50:05.950Z",
+      "sessionId": "sess_prro5uu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_14_2h82",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-03T10:55:12.716Z",
+      "sessionId": "sess_6ph0yrz",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_15_b4w4",
+      "page": "/products",
+      "timestamp": "2026-10-03T18:34:18.037Z",
+      "sessionId": "sess_n2f1eo1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_16_zswd",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-03T21:54:07.572Z",
+      "sessionId": "sess_mxufgyv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_17_cb2s",
+      "page": "/products",
+      "timestamp": "2026-10-03T22:32:53.537Z",
+      "sessionId": "sess_biixd6f",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_18_vsoj",
+      "page": "/",
+      "timestamp": "2026-10-03T19:51:03.700Z",
+      "sessionId": "sess_9wbw735",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_19_5oq1",
+      "page": "/",
+      "timestamp": "2026-10-03T15:52:14.158Z",
+      "sessionId": "sess_i6nev9g",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_20_u7mz",
+      "page": "/",
+      "timestamp": "2026-10-03T16:19:18.195Z",
+      "sessionId": "sess_v2kj9qa",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_21_urjt",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-03T12:01:19.505Z",
+      "sessionId": "sess_ncehcz8",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_22_5i9b",
+      "page": "/about",
+      "timestamp": "2026-10-04T04:44:33.716Z",
+      "sessionId": "sess_ac4bz7t",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_23_521t",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T07:29:58.282Z",
+      "sessionId": "sess_goano9g",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_24_qplw",
+      "page": "/about",
+      "timestamp": "2026-10-03T20:41:33.309Z",
+      "sessionId": "sess_3gab453",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_25_3ocn",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-04T03:57:07.760Z",
+      "sessionId": "sess_nofgov6",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_26_soho",
+      "page": "/",
+      "timestamp": "2026-10-03T15:35:11.966Z",
+      "sessionId": "sess_ry8ugjz",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_27_q718",
+      "page": "/about",
+      "timestamp": "2026-10-04T04:20:49.006Z",
+      "sessionId": "sess_eup7nga",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_28_lr2o",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-03T20:27:26.355Z",
+      "sessionId": "sess_cvs00kr",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_29_805b",
+      "page": "/contact",
+      "timestamp": "2026-10-03T15:43:52.976Z",
+      "sessionId": "sess_yaynvne",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_30_fwkx",
+      "page": "/gallery",
+      "timestamp": "2026-10-03T22:13:42.744Z",
+      "sessionId": "sess_xxpse9h",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_31_tbsl",
+      "page": "/products",
+      "timestamp": "2026-10-03T14:55:17.245Z",
+      "sessionId": "sess_snuw4df",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_32_upbn",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T09:56:16.138Z",
+      "sessionId": "sess_rc6v9tl",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_33_aa0z",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T01:23:32.040Z",
+      "sessionId": "sess_r0u46fo",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_34_9o1f",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-03T16:01:52.661Z",
+      "sessionId": "sess_wu9b5nm",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_35_jxo1",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-04T10:07:42.190Z",
+      "sessionId": "sess_4drkids",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_36_iwov",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-03T14:48:37.012Z",
+      "sessionId": "sess_pfwed03",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_37_2azm",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-03T12:00:52.551Z",
+      "sessionId": "sess_ro4syhs",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_38_836z",
+      "page": "/about",
+      "timestamp": "2026-10-03T22:45:54.921Z",
+      "sessionId": "sess_n0d07xi",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_12_39_3s4g",
+      "page": "/contact",
+      "timestamp": "2026-10-03T20:13:24.057Z",
+      "sessionId": "sess_exib9ie",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_12_40_saeb",
+      "page": "/contact",
+      "timestamp": "2026-10-03T17:29:14.572Z",
+      "sessionId": "sess_qp7sex9",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_12_41_sy9m",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-03T15:23:05.912Z",
+      "sessionId": "sess_72vm7vi",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_0_85jm",
+      "page": "/",
+      "timestamp": "2026-10-04T21:22:25.680Z",
+      "sessionId": "sess_hjyntze",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_1_yn1w",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-04T23:09:42.468Z",
+      "sessionId": "sess_tpia4ae",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_11_2_su3e",
+      "page": "/",
+      "timestamp": "2026-10-04T19:05:20.501Z",
+      "sessionId": "sess_57gwer8",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_11_3_8vbx",
+      "page": "/about",
+      "timestamp": "2026-10-04T14:47:41.044Z",
+      "sessionId": "sess_ga7qqaj",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_4_0deo",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T15:55:56.584Z",
+      "sessionId": "sess_i0495bq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_5_jxwh",
+      "page": "/gallery",
+      "timestamp": "2026-10-05T03:41:29.403Z",
+      "sessionId": "sess_yjp9dqd",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_6_41e2",
+      "page": "/about",
+      "timestamp": "2026-10-04T19:31:01.145Z",
+      "sessionId": "sess_10e93yq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_7_rqoo",
+      "page": "/about",
+      "timestamp": "2026-10-04T17:43:19.188Z",
+      "sessionId": "sess_9j6on3j",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_8_8ptp",
+      "page": "/about",
+      "timestamp": "2026-10-04T11:58:28.258Z",
+      "sessionId": "sess_d80c68w",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_9_swuc",
+      "page": "/",
+      "timestamp": "2026-10-05T04:32:56.615Z",
+      "sessionId": "sess_14kgh8h",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_10_sfc2",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-04T14:08:31.372Z",
+      "sessionId": "sess_80vx3ua",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_11_i3wx",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-05T09:42:12.863Z",
+      "sessionId": "sess_ksqeed2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_12_d0kl",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T18:52:22.285Z",
+      "sessionId": "sess_zm99hv1",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_13_qdp0",
+      "page": "/",
+      "timestamp": "2026-10-04T16:06:02.513Z",
+      "sessionId": "sess_j51blph",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_14_q0u8",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-04T23:57:49.647Z",
+      "sessionId": "sess_yh82gnn",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_15_rhiz",
+      "page": "/",
+      "timestamp": "2026-10-05T01:08:51.451Z",
+      "sessionId": "sess_ewqpvlh",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_16_f5rp",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T19:52:37.047Z",
+      "sessionId": "sess_wsmf4jx",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_17_62z8",
+      "page": "/about",
+      "timestamp": "2026-10-05T10:13:41.457Z",
+      "sessionId": "sess_csnq6lg",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_11_18_ben2",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-04T12:27:36.204Z",
+      "sessionId": "sess_70utw8t",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_19_55f5",
+      "page": "/products",
+      "timestamp": "2026-10-04T20:30:14.345Z",
+      "sessionId": "sess_aeirpat",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_20_a2ol",
+      "page": "/products",
+      "timestamp": "2026-10-04T18:58:33.385Z",
+      "sessionId": "sess_b9hh5l9",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_21_o6d3",
+      "page": "/",
+      "timestamp": "2026-10-04T22:56:12.194Z",
+      "sessionId": "sess_c2z474n",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_22_8spn",
+      "page": "/gallery",
+      "timestamp": "2026-10-05T09:46:43.928Z",
+      "sessionId": "sess_x299xpo",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_23_bndw",
+      "page": "/contact",
+      "timestamp": "2026-10-05T10:16:26.219Z",
+      "sessionId": "sess_mfsqocw",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_24_0008",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-04T18:27:48.743Z",
+      "sessionId": "sess_8ojcekb",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_11_25_8oio",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T19:00:15.048Z",
+      "sessionId": "sess_xmly3oq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_26_e0ud",
+      "page": "/contact",
+      "timestamp": "2026-10-04T20:37:10.229Z",
+      "sessionId": "sess_zm30v3v",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_27_coa2",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T12:49:03.760Z",
+      "sessionId": "sess_6kfxugj",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_11_28_9xbl",
+      "page": "/about",
+      "timestamp": "2026-10-04T23:29:48.274Z",
+      "sessionId": "sess_p4zw4zk",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_29_dawi",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-05T06:25:46.980Z",
+      "sessionId": "sess_xzeg5we",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_11_30_9s82",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-05T05:07:11.729Z",
+      "sessionId": "sess_nx4cjr5",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_31_oxeh",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-05T04:38:16.238Z",
+      "sessionId": "sess_e8j23l2",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_11_32_c4do",
+      "page": "/",
+      "timestamp": "2026-10-05T06:57:53.226Z",
+      "sessionId": "sess_m95f12r",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_33_esyg",
+      "page": "/contact",
+      "timestamp": "2026-10-05T02:55:10.795Z",
+      "sessionId": "sess_dk0vhn5",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_11_34_md9j",
+      "page": "/gallery",
+      "timestamp": "2026-10-04T21:22:19.896Z",
+      "sessionId": "sess_o4phoh2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_11_35_klu1",
+      "page": "/contact",
+      "timestamp": "2026-10-04T17:46:31.277Z",
+      "sessionId": "sess_c16svlg",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_10_0_gboh",
+      "page": "/products",
+      "timestamp": "2026-10-05T17:35:53.429Z",
+      "sessionId": "sess_zhx0p2t",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_1_88a0",
+      "page": "/about",
+      "timestamp": "2026-10-05T17:56:40.057Z",
+      "sessionId": "sess_6v0w6g6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_10_2_30wb",
+      "page": "/",
+      "timestamp": "2026-10-06T02:11:33.490Z",
+      "sessionId": "sess_8bwomk9",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_3_kksd",
+      "page": "/contact",
+      "timestamp": "2026-10-06T02:47:19.969Z",
+      "sessionId": "sess_jbfhfuv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_10_4_1dq2",
+      "page": "/products",
+      "timestamp": "2026-10-05T20:02:46.954Z",
+      "sessionId": "sess_syxr2yw",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_10_5_47vb",
+      "page": "/",
+      "timestamp": "2026-10-05T11:31:30.483Z",
+      "sessionId": "sess_9f0ce3f",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_10_6_k9xw",
+      "page": "/contact",
+      "timestamp": "2026-10-05T18:49:12.385Z",
+      "sessionId": "sess_faxc608",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_10_7_69m0",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-05T16:34:39.789Z",
+      "sessionId": "sess_e1sw2h2",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_10_8_bbtc",
+      "page": "/gallery",
+      "timestamp": "2026-10-06T10:16:00.314Z",
+      "sessionId": "sess_109u1lc",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_9_u8ui",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-05T12:23:55.136Z",
+      "sessionId": "sess_8p8j9o8",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_10_h6tn",
+      "page": "/about",
+      "timestamp": "2026-10-05T21:57:58.410Z",
+      "sessionId": "sess_g326qiq",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_11_qw2z",
+      "page": "/products",
+      "timestamp": "2026-10-05T15:45:01.494Z",
+      "sessionId": "sess_nuxw7cn",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_10_12_b7nn",
+      "page": "/contact",
+      "timestamp": "2026-10-06T10:26:07.031Z",
+      "sessionId": "sess_ulcybee",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_10_13_1vkz",
+      "page": "/gallery",
+      "timestamp": "2026-10-06T05:30:13.821Z",
+      "sessionId": "sess_hcldtyh",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_10_14_f042",
+      "page": "/about",
+      "timestamp": "2026-10-05T23:47:29.857Z",
+      "sessionId": "sess_3bn4h45",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_15_r44r",
+      "page": "/products",
+      "timestamp": "2026-10-06T06:04:13.647Z",
+      "sessionId": "sess_609rhwy",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_10_16_hqcl",
+      "page": "/products",
+      "timestamp": "2026-10-05T19:57:39.750Z",
+      "sessionId": "sess_hua89zw",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_17_effl",
+      "page": "/gallery",
+      "timestamp": "2026-10-05T18:34:10.574Z",
+      "sessionId": "sess_4bdtypm",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_18_o0x2",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-05T17:48:59.513Z",
+      "sessionId": "sess_usmg81b",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_10_19_3t22",
+      "page": "/about",
+      "timestamp": "2026-10-05T18:24:32.759Z",
+      "sessionId": "sess_eaxqw1w",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_20_kj3h",
+      "page": "/products",
+      "timestamp": "2026-10-06T04:21:14.477Z",
+      "sessionId": "sess_951uwf7",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_21_33an",
+      "page": "/about",
+      "timestamp": "2026-10-06T02:10:55.342Z",
+      "sessionId": "sess_nof89af",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_22_ekvf",
+      "page": "/products",
+      "timestamp": "2026-10-05T16:50:51.069Z",
+      "sessionId": "sess_n94tg49",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_10_23_321x",
+      "page": "/",
+      "timestamp": "2026-10-05T12:53:50.577Z",
+      "sessionId": "sess_vi5j07a",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_10_24_vcpy",
+      "page": "/about",
+      "timestamp": "2026-10-06T07:06:19.894Z",
+      "sessionId": "sess_8069b9f",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_10_25_jb3d",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-05T21:16:34.707Z",
+      "sessionId": "sess_dh6tmjc",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_10_26_jyka",
+      "page": "/contact",
+      "timestamp": "2026-10-05T14:45:40.448Z",
+      "sessionId": "sess_upi4cck",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_10_27_f0m5",
+      "page": "/",
+      "timestamp": "2026-10-05T15:20:05.756Z",
+      "sessionId": "sess_rszrijo",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_10_28_m9am",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-05T21:54:55.493Z",
+      "sessionId": "sess_dtw6uf7",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_9_0_t0eb",
+      "page": "/contact",
+      "timestamp": "2026-10-06T20:06:05.602Z",
+      "sessionId": "sess_7fguun1",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_1_ikhv",
+      "page": "/gallery",
+      "timestamp": "2026-10-07T06:57:09.019Z",
+      "sessionId": "sess_p8gnefe",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_2_31jq",
+      "page": "/",
+      "timestamp": "2026-10-07T00:25:46.394Z",
+      "sessionId": "sess_0mfqt44",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_3_xtq9",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-06T12:33:01.331Z",
+      "sessionId": "sess_cq9p4yb",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_4_n6ze",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-06T20:20:45.221Z",
+      "sessionId": "sess_r4viurk",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_5_8qit",
+      "page": "/",
+      "timestamp": "2026-10-06T21:03:39.809Z",
+      "sessionId": "sess_g0djrpk",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_6_xftp",
+      "page": "/products",
+      "timestamp": "2026-10-07T03:32:00.445Z",
+      "sessionId": "sess_ttucvnz",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_7_zaub",
+      "page": "/gallery",
+      "timestamp": "2026-10-06T20:11:35.979Z",
+      "sessionId": "sess_g84lt8s",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_8_yxai",
+      "page": "/about",
+      "timestamp": "2026-10-06T12:10:30.968Z",
+      "sessionId": "sess_vboa0t6",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_9_y3hi",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-07T05:13:03.355Z",
+      "sessionId": "sess_yd0kr01",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_10_aom7",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-06T16:16:25.831Z",
+      "sessionId": "sess_wh91t1k",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_9_11_5xla",
+      "page": "/about",
+      "timestamp": "2026-10-06T12:58:05.568Z",
+      "sessionId": "sess_0cwjinf",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_12_leh0",
+      "page": "/products",
+      "timestamp": "2026-10-06T14:56:22.590Z",
+      "sessionId": "sess_hckfb3y",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_13_qaq8",
+      "page": "/gallery",
+      "timestamp": "2026-10-07T06:28:52.620Z",
+      "sessionId": "sess_09arrst",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_14_k3ea",
+      "page": "/products",
+      "timestamp": "2026-10-06T18:33:38.326Z",
+      "sessionId": "sess_vgmpa9d",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_15_njnu",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-07T08:23:46.114Z",
+      "sessionId": "sess_qhuc1sn",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_9_16_cyz7",
+      "page": "/",
+      "timestamp": "2026-10-07T07:36:32.240Z",
+      "sessionId": "sess_whg45jf",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_17_iawy",
+      "page": "/products",
+      "timestamp": "2026-10-06T20:17:54.500Z",
+      "sessionId": "sess_e7b5riz",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_18_3b07",
+      "page": "/gallery",
+      "timestamp": "2026-10-06T15:46:38.362Z",
+      "sessionId": "sess_plpyhuy",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_19_na9b",
+      "page": "/products",
+      "timestamp": "2026-10-06T22:38:05.164Z",
+      "sessionId": "sess_0p5eh93",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_20_kcze",
+      "page": "/",
+      "timestamp": "2026-10-06T22:57:45.444Z",
+      "sessionId": "sess_fsez9il",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_21_ksn0",
+      "page": "/products",
+      "timestamp": "2026-10-06T11:52:45.983Z",
+      "sessionId": "sess_43otff4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_22_fkwi",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-06T14:31:02.909Z",
+      "sessionId": "sess_wsyr4xa",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_9_23_qed1",
+      "page": "/products",
+      "timestamp": "2026-10-06T15:24:46.751Z",
+      "sessionId": "sess_9ykxx20",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_24_f3ts",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-07T06:56:57.708Z",
+      "sessionId": "sess_8fwdjao",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_25_1z4z",
+      "page": "/",
+      "timestamp": "2026-10-06T20:39:11.742Z",
+      "sessionId": "sess_0h70cuj",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_26_r4hd",
+      "page": "/",
+      "timestamp": "2026-10-07T07:54:54.045Z",
+      "sessionId": "sess_wyj8fcm",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_9_27_vmbw",
+      "page": "/about",
+      "timestamp": "2026-10-07T01:10:34.432Z",
+      "sessionId": "sess_nq01gz2",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_9_28_iq1h",
+      "page": "/gallery",
+      "timestamp": "2026-10-07T02:45:00.800Z",
+      "sessionId": "sess_s9cw4yg",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_9_29_30ym",
+      "page": "/",
+      "timestamp": "2026-10-06T15:55:12.343Z",
+      "sessionId": "sess_b2gmwb1",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_9_30_ehra",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-06T20:28:00.636Z",
+      "sessionId": "sess_fzu5ptu",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_8_0_zfnj",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-07T20:05:51.104Z",
+      "sessionId": "sess_vp5qm8x",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_8_1_rouw",
+      "page": "/about",
+      "timestamp": "2026-10-08T05:20:32.857Z",
+      "sessionId": "sess_8d0mb13",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_8_2_2m5j",
+      "page": "/products",
+      "timestamp": "2026-10-07T22:49:23.387Z",
+      "sessionId": "sess_bhds4ro",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_8_3_pzzu",
+      "page": "/products",
+      "timestamp": "2026-10-07T20:00:44.190Z",
+      "sessionId": "sess_o1psvt3",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_8_4_dd0r",
+      "page": "/",
+      "timestamp": "2026-10-08T04:15:31.559Z",
+      "sessionId": "sess_ykaryn7",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_8_5_t7u4",
+      "page": "/contact",
+      "timestamp": "2026-10-08T00:20:09.491Z",
+      "sessionId": "sess_xkwt00q",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_8_6_7q1k",
+      "page": "/about",
+      "timestamp": "2026-10-08T09:54:20.147Z",
+      "sessionId": "sess_vbsi1gj",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_8_7_hetw",
+      "page": "/products",
+      "timestamp": "2026-10-07T19:11:03.371Z",
+      "sessionId": "sess_ld692xx",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_8_8_igiv",
+      "page": "/contact",
+      "timestamp": "2026-10-07T11:50:47.957Z",
+      "sessionId": "sess_k46ka0l",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_8_9_zebx",
+      "page": "/products",
+      "timestamp": "2026-10-08T06:14:07.810Z",
+      "sessionId": "sess_maykkq4",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_8_10_wbdo",
+      "page": "/",
+      "timestamp": "2026-10-08T09:19:03.913Z",
+      "sessionId": "sess_ba8gxtg",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_8_11_zpyv",
+      "page": "/about",
+      "timestamp": "2026-10-08T08:09:01.755Z",
+      "sessionId": "sess_8huyxm9",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_8_12_4x27",
+      "page": "/contact",
+      "timestamp": "2026-10-07T22:14:43.011Z",
+      "sessionId": "sess_ia3utct",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_8_13_4y27",
+      "page": "/products",
+      "timestamp": "2026-10-08T01:03:32.886Z",
+      "sessionId": "sess_rhmbbo7",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_8_14_xuw0",
+      "page": "/gallery",
+      "timestamp": "2026-10-07T15:39:14.514Z",
+      "sessionId": "sess_cfz878f",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_8_15_iw0q",
+      "page": "/about",
+      "timestamp": "2026-10-08T00:19:29.706Z",
+      "sessionId": "sess_zdkitso",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_8_16_3lvs",
+      "page": "/gallery",
+      "timestamp": "2026-10-07T14:45:22.867Z",
+      "sessionId": "sess_nupk6gm",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_8_17_0wuh",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-07T19:50:26.097Z",
+      "sessionId": "sess_8zz4yj5",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_8_18_5hpb",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-07T12:15:30.413Z",
+      "sessionId": "sess_874el19",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_8_19_9qf5",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-08T08:01:37.926Z",
+      "sessionId": "sess_75k9ew8",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_7_0_tkho",
+      "page": "/gallery",
+      "timestamp": "2026-10-09T09:38:52.865Z",
+      "sessionId": "sess_xk3usjg",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_7_1_2mr5",
+      "page": "/about",
+      "timestamp": "2026-10-09T01:54:59.198Z",
+      "sessionId": "sess_esqrxcq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_2_4x62",
+      "page": "/gallery",
+      "timestamp": "2026-10-08T15:04:28.532Z",
+      "sessionId": "sess_q99mifi",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_7_3_q3zj",
+      "page": "/products",
+      "timestamp": "2026-10-08T20:25:08.924Z",
+      "sessionId": "sess_1hbm1o1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_7_4_lh4d",
+      "page": "/about",
+      "timestamp": "2026-10-09T07:01:30.757Z",
+      "sessionId": "sess_to83pb8",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_7_5_oswb",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-09T01:56:20.965Z",
+      "sessionId": "sess_vzbdngu",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_6_ixys",
+      "page": "/contact",
+      "timestamp": "2026-10-09T09:16:39.462Z",
+      "sessionId": "sess_90o3n5u",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_7_7_cl0q",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-08T21:25:55.291Z",
+      "sessionId": "sess_tl9nffr",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_8_uqkg",
+      "page": "/about",
+      "timestamp": "2026-10-08T14:22:29.586Z",
+      "sessionId": "sess_pfqrcj9",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_7_9_55t9",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-08T23:07:24.079Z",
+      "sessionId": "sess_lzw3xku",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_7_10_bhks",
+      "page": "/about",
+      "timestamp": "2026-10-09T02:24:12.831Z",
+      "sessionId": "sess_gd401p0",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_11_bosc",
+      "page": "/about",
+      "timestamp": "2026-10-08T16:46:19.521Z",
+      "sessionId": "sess_uk2ot47",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_12_83sx",
+      "page": "/products",
+      "timestamp": "2026-10-08T23:26:21.561Z",
+      "sessionId": "sess_s3nf45i",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_13_s3ri",
+      "page": "/",
+      "timestamp": "2026-10-08T17:51:59.844Z",
+      "sessionId": "sess_6bxlr8p",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_7_14_txl8",
+      "page": "/gallery",
+      "timestamp": "2026-10-09T04:34:38.586Z",
+      "sessionId": "sess_yadgdbf",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_15_wpv0",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-08T23:23:55.799Z",
+      "sessionId": "sess_tvst40c",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_16_pbf9",
+      "page": "/gallery",
+      "timestamp": "2026-10-09T05:19:19.317Z",
+      "sessionId": "sess_p2d6o6i",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_17_0vzs",
+      "page": "/contact",
+      "timestamp": "2026-10-09T08:54:14.607Z",
+      "sessionId": "sess_ag5itzr",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_18_nuf4",
+      "page": "/gallery",
+      "timestamp": "2026-10-08T12:02:23.452Z",
+      "sessionId": "sess_moczy8c",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_19_xcxz",
+      "page": "/contact",
+      "timestamp": "2026-10-08T20:35:10.599Z",
+      "sessionId": "sess_sup0fjw",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_7_20_5bik",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-09T10:14:23.520Z",
+      "sessionId": "sess_jyjart9",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_21_zm8x",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-08T13:34:33.680Z",
+      "sessionId": "sess_lducfgl",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_22_4ov1",
+      "page": "/about",
+      "timestamp": "2026-10-09T07:19:57.386Z",
+      "sessionId": "sess_3ajw16m",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_7_23_9v1q",
+      "page": "/about",
+      "timestamp": "2026-10-09T00:25:51.045Z",
+      "sessionId": "sess_g07hpov",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_7_24_8746",
+      "page": "/about",
+      "timestamp": "2026-10-09T02:50:12.708Z",
+      "sessionId": "sess_tc56o5h",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_7_25_a96k",
+      "page": "/gallery",
+      "timestamp": "2026-10-08T11:57:57.471Z",
+      "sessionId": "sess_gcsjisq",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_7_26_pvke",
+      "page": "/products",
+      "timestamp": "2026-10-08T22:17:29.130Z",
+      "sessionId": "sess_ms3e05p",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_7_27_lopk",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-09T01:34:51.701Z",
+      "sessionId": "sess_2ip726o",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_7_28_axvp",
+      "page": "/products",
+      "timestamp": "2026-10-08T11:26:07.758Z",
+      "sessionId": "sess_fl28jmg",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_7_29_238i",
+      "page": "/about",
+      "timestamp": "2026-10-08T21:13:46.455Z",
+      "sessionId": "sess_z8re39v",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_7_30_788s",
+      "page": "/products",
+      "timestamp": "2026-10-09T01:11:35.208Z",
+      "sessionId": "sess_1mitfwg",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_7_31_4yud",
+      "page": "/contact",
+      "timestamp": "2026-10-09T07:11:37.614Z",
+      "sessionId": "sess_jzn354n",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_0_tp4m",
+      "page": "/products",
+      "timestamp": "2026-10-09T20:54:31.411Z",
+      "sessionId": "sess_ap53wo8",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_1_7o93",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-09T20:31:44.273Z",
+      "sessionId": "sess_1c0r6oa",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_2_l2vm",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-09T17:42:58.712Z",
+      "sessionId": "sess_ar9sx2e",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_3_ur64",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-10T08:32:17.815Z",
+      "sessionId": "sess_z0dsqi0",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_4_j2ld",
+      "page": "/products",
+      "timestamp": "2026-10-10T01:26:33.843Z",
+      "sessionId": "sess_473fsic",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_5_duez",
+      "page": "/about",
+      "timestamp": "2026-10-09T19:21:49.693Z",
+      "sessionId": "sess_82qsr62",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_6_zqau",
+      "page": "/contact",
+      "timestamp": "2026-10-09T11:31:27.470Z",
+      "sessionId": "sess_fh4m0n8",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_7_m3hz",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-09T20:33:18.617Z",
+      "sessionId": "sess_phvng38",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_8_5zow",
+      "page": "/contact",
+      "timestamp": "2026-10-10T04:39:08.316Z",
+      "sessionId": "sess_234d5jv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_9_ztf3",
+      "page": "/products",
+      "timestamp": "2026-10-10T05:05:54.194Z",
+      "sessionId": "sess_gawr2b5",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_10_e9la",
+      "page": "/",
+      "timestamp": "2026-10-10T07:43:58.805Z",
+      "sessionId": "sess_036ktua",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_11_jxa2",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-10T04:53:41.678Z",
+      "sessionId": "sess_ej9ib0x",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_12_o6u8",
+      "page": "/",
+      "timestamp": "2026-10-10T04:44:26.444Z",
+      "sessionId": "sess_kt27k5h",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_13_scns",
+      "page": "/contact",
+      "timestamp": "2026-10-09T15:53:37.114Z",
+      "sessionId": "sess_4fcadja",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_6_14_0laa",
+      "page": "/products",
+      "timestamp": "2026-10-10T08:06:13.169Z",
+      "sessionId": "sess_k22vm3l",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_15_kdfn",
+      "page": "/",
+      "timestamp": "2026-10-09T12:01:57.823Z",
+      "sessionId": "sess_axaz2my",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_16_oqyw",
+      "page": "/gallery",
+      "timestamp": "2026-10-09T20:13:32.683Z",
+      "sessionId": "sess_5lgf8my",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_17_8a9i",
+      "page": "/gallery",
+      "timestamp": "2026-10-10T08:48:39.852Z",
+      "sessionId": "sess_qzlgzuf",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_18_hp9j",
+      "page": "/contact",
+      "timestamp": "2026-10-09T17:08:09.280Z",
+      "sessionId": "sess_9z0fi0v",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_19_k5fy",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-09T20:35:01.270Z",
+      "sessionId": "sess_9kh0r57",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_20_u6zc",
+      "page": "/",
+      "timestamp": "2026-10-10T05:13:03.149Z",
+      "sessionId": "sess_n43ds8u",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_21_nfzq",
+      "page": "/products",
+      "timestamp": "2026-10-10T00:12:12.522Z",
+      "sessionId": "sess_2hi5cm1",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_6_22_oqat",
+      "page": "/gallery",
+      "timestamp": "2026-10-10T03:11:24.456Z",
+      "sessionId": "sess_nndeqeh",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_6_23_mjbb",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-09T11:57:48.969Z",
+      "sessionId": "sess_63w6pp5",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_24_5n2n",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-09T15:37:45.927Z",
+      "sessionId": "sess_sfr0gia",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_6_25_pc9y",
+      "page": "/gallery",
+      "timestamp": "2026-10-09T13:49:18.965Z",
+      "sessionId": "sess_a5ndepg",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_6_26_6i8q",
+      "page": "/products",
+      "timestamp": "2026-10-09T12:34:46.968Z",
+      "sessionId": "sess_51tu7kc",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_27_wq6q",
+      "page": "/gallery",
+      "timestamp": "2026-10-10T09:41:39.983Z",
+      "sessionId": "sess_oi3sm16",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_6_28_tyl4",
+      "page": "/contact",
+      "timestamp": "2026-10-10T03:51:01.682Z",
+      "sessionId": "sess_x5ynd1s",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_6_29_ms91",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-10T09:41:39.799Z",
+      "sessionId": "sess_8xulid1",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_6_30_q55y",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-10T10:17:23.145Z",
+      "sessionId": "sess_bkwtu2m",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_5_0_v7sz",
+      "page": "/products",
+      "timestamp": "2026-10-11T00:29:36.592Z",
+      "sessionId": "sess_lqal6tp",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_5_1_4sz7",
+      "page": "/",
+      "timestamp": "2026-10-10T20:19:35.316Z",
+      "sessionId": "sess_jq4zz7u",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_5_2_3j8y",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-11T04:52:27.466Z",
+      "sessionId": "sess_dtsz5uo",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_5_3_axm1",
+      "page": "/gallery",
+      "timestamp": "2026-10-10T12:23:40.796Z",
+      "sessionId": "sess_droc8ds",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_5_4_ywz8",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-10T20:22:49.926Z",
+      "sessionId": "sess_zap9ltw",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_5_5_vorh",
+      "page": "/contact",
+      "timestamp": "2026-10-11T04:31:59.561Z",
+      "sessionId": "sess_ap1v2av",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_5_6_2rlp",
+      "page": "/about",
+      "timestamp": "2026-10-10T20:18:50.209Z",
+      "sessionId": "sess_oknhoax",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_5_7_cigd",
+      "page": "/contact",
+      "timestamp": "2026-10-11T05:47:06.761Z",
+      "sessionId": "sess_014otal",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_5_8_9vki",
+      "page": "/about",
+      "timestamp": "2026-10-10T21:17:22.829Z",
+      "sessionId": "sess_wtmz2ha",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_5_9_zntm",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-10T12:30:42.563Z",
+      "sessionId": "sess_barge3u",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_5_10_ymx6",
+      "page": "/contact",
+      "timestamp": "2026-10-11T01:23:18.563Z",
+      "sessionId": "sess_rtu5pti",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_5_11_8wbn",
+      "page": "/about",
+      "timestamp": "2026-10-11T09:23:11.498Z",
+      "sessionId": "sess_9dqs3m6",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_5_12_kr1u",
+      "page": "/products",
+      "timestamp": "2026-10-11T09:49:50.931Z",
+      "sessionId": "sess_aaosu85",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_5_13_v2qn",
+      "page": "/products",
+      "timestamp": "2026-10-11T10:43:07.611Z",
+      "sessionId": "sess_55pfeg9",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_5_14_z0ei",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-10T19:22:05.238Z",
+      "sessionId": "sess_l1i1yqj",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_5_15_bkic",
+      "page": "/contact",
+      "timestamp": "2026-10-11T10:31:42.734Z",
+      "sessionId": "sess_p6m4x79",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_5_16_nu8s",
+      "page": "/",
+      "timestamp": "2026-10-11T06:00:29.776Z",
+      "sessionId": "sess_e56xnz8",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_5_17_ea4o",
+      "page": "/products",
+      "timestamp": "2026-10-11T08:52:43.012Z",
+      "sessionId": "sess_7pt604k",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_5_18_n4es",
+      "page": "/",
+      "timestamp": "2026-10-11T05:13:42.694Z",
+      "sessionId": "sess_p74pla0",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_0_v96z",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-11T21:26:12.237Z",
+      "sessionId": "sess_0qs6ysg",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_4_1_sb54",
+      "page": "/",
+      "timestamp": "2026-10-11T18:33:20.839Z",
+      "sessionId": "sess_pkmfdlx",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_4_2_s4oc",
+      "page": "/gallery",
+      "timestamp": "2026-10-11T16:21:10.789Z",
+      "sessionId": "sess_g1wai1t",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_4_3_22c8",
+      "page": "/contact",
+      "timestamp": "2026-10-11T11:46:42.328Z",
+      "sessionId": "sess_zxg5cb6",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_4_l700",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-12T08:34:01.348Z",
+      "sessionId": "sess_oun949l",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_5_ocps",
+      "page": "/gallery",
+      "timestamp": "2026-10-11T14:20:21.251Z",
+      "sessionId": "sess_s5url8y",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_4_6_xga9",
+      "page": "/about",
+      "timestamp": "2026-10-11T15:54:44.951Z",
+      "sessionId": "sess_yir18pb",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_7_fosm",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-11T19:59:35.484Z",
+      "sessionId": "sess_hloh8pz",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_4_8_fglz",
+      "page": "/",
+      "timestamp": "2026-10-11T13:25:36.113Z",
+      "sessionId": "sess_utlfnky",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_9_v8ul",
+      "page": "/about",
+      "timestamp": "2026-10-12T09:25:54.590Z",
+      "sessionId": "sess_srinq9h",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_4_10_havl",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-12T09:36:20.255Z",
+      "sessionId": "sess_5sqc92s",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_4_11_5uzr",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-12T10:44:10.082Z",
+      "sessionId": "sess_w77lntq",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_12_xfcx",
+      "page": "/",
+      "timestamp": "2026-10-11T19:19:01.028Z",
+      "sessionId": "sess_6e6wnch",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_4_13_spdl",
+      "page": "/",
+      "timestamp": "2026-10-11T19:16:26.725Z",
+      "sessionId": "sess_s7mis71",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_4_14_gul2",
+      "page": "/gallery",
+      "timestamp": "2026-10-12T02:37:32.675Z",
+      "sessionId": "sess_09wwq2k",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_4_15_mnzh",
+      "page": "/about",
+      "timestamp": "2026-10-11T19:05:29.411Z",
+      "sessionId": "sess_33g0nsu",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_16_l6ub",
+      "page": "/contact",
+      "timestamp": "2026-10-11T18:36:50.688Z",
+      "sessionId": "sess_q8eu6kr",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_17_brsh",
+      "page": "/",
+      "timestamp": "2026-10-11T17:41:35.347Z",
+      "sessionId": "sess_88skq7w",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_4_18_rwr8",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-11T18:08:29.348Z",
+      "sessionId": "sess_1mwjiqs",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_19_wg42",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-11T22:41:03.291Z",
+      "sessionId": "sess_zjvjkdt",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_4_20_e7dr",
+      "page": "/gallery",
+      "timestamp": "2026-10-11T15:20:22.461Z",
+      "sessionId": "sess_d3jx5ye",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_4_21_78iy",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-11T12:05:35.097Z",
+      "sessionId": "sess_kmo1mno",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_4_22_i9rn",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-12T03:17:11.965Z",
+      "sessionId": "sess_pf8y5af",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_4_23_47xb",
+      "page": "/products",
+      "timestamp": "2026-10-12T06:43:49.618Z",
+      "sessionId": "sess_wyd1ogk",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_0_8f6k",
+      "page": "/",
+      "timestamp": "2026-10-13T01:39:26.606Z",
+      "sessionId": "sess_q8qeglb",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_1_nr24",
+      "page": "/about",
+      "timestamp": "2026-10-12T15:36:35.275Z",
+      "sessionId": "sess_1l2zo5p",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_2_jjq3",
+      "page": "/about",
+      "timestamp": "2026-10-13T04:18:02.597Z",
+      "sessionId": "sess_og3jxm3",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_3_wzyv",
+      "page": "/gallery",
+      "timestamp": "2026-10-12T19:28:50.539Z",
+      "sessionId": "sess_p237euj",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_4_df4t",
+      "page": "/gallery",
+      "timestamp": "2026-10-13T08:49:12.635Z",
+      "sessionId": "sess_zafl6j7",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_5_4gju",
+      "page": "/about",
+      "timestamp": "2026-10-13T07:29:03.973Z",
+      "sessionId": "sess_duoa4vy",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_3_6_kfoy",
+      "page": "/contact",
+      "timestamp": "2026-10-12T16:12:15.241Z",
+      "sessionId": "sess_0tx9y9q",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_7_ckuc",
+      "page": "/contact",
+      "timestamp": "2026-10-12T10:47:47.763Z",
+      "sessionId": "sess_wfs0l8d",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_8_hopf",
+      "page": "/about",
+      "timestamp": "2026-10-12T19:59:17.930Z",
+      "sessionId": "sess_n4bqwgu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_9_lr6y",
+      "page": "/products",
+      "timestamp": "2026-10-12T15:08:41.698Z",
+      "sessionId": "sess_qb2dkbx",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_3_10_0u69",
+      "page": "/about",
+      "timestamp": "2026-10-12T12:31:36.454Z",
+      "sessionId": "sess_hpav5k3",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_3_11_9amj",
+      "page": "/products",
+      "timestamp": "2026-10-13T04:38:36.875Z",
+      "sessionId": "sess_8zryx3f",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_3_12_phyi",
+      "page": "/gallery",
+      "timestamp": "2026-10-13T02:51:52.842Z",
+      "sessionId": "sess_rw33wag",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_13_9ozq",
+      "page": "/about",
+      "timestamp": "2026-10-12T11:07:44.744Z",
+      "sessionId": "sess_dntwnoe",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_3_14_1yvr",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-12T18:36:22.350Z",
+      "sessionId": "sess_1qqr9dq",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_3_15_rdtl",
+      "page": "/contact",
+      "timestamp": "2026-10-13T03:57:15.940Z",
+      "sessionId": "sess_mjhp4wb",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_3_16_62dc",
+      "page": "/about",
+      "timestamp": "2026-10-13T01:45:09.661Z",
+      "sessionId": "sess_9t2c31d",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_17_kw1s",
+      "page": "/gallery",
+      "timestamp": "2026-10-12T22:06:15.313Z",
+      "sessionId": "sess_09t94qz",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_18_vmz4",
+      "page": "/contact",
+      "timestamp": "2026-10-13T06:59:20.980Z",
+      "sessionId": "sess_7ja57yz",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_19_ctts",
+      "page": "/about",
+      "timestamp": "2026-10-13T06:57:41.731Z",
+      "sessionId": "sess_frshtil",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_20_2nzn",
+      "page": "/contact",
+      "timestamp": "2026-10-13T02:05:22.280Z",
+      "sessionId": "sess_4ti54cu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_21_al8v",
+      "page": "/",
+      "timestamp": "2026-10-12T23:46:27.293Z",
+      "sessionId": "sess_bcpfmpi",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_22_684d",
+      "page": "/products",
+      "timestamp": "2026-10-12T11:15:27.544Z",
+      "sessionId": "sess_kbs4nvf",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_23_xm73",
+      "page": "/gallery",
+      "timestamp": "2026-10-12T23:29:46.606Z",
+      "sessionId": "sess_5hzqb9k",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_24_inrm",
+      "page": "/contact",
+      "timestamp": "2026-10-13T09:33:06.497Z",
+      "sessionId": "sess_jokg9qx",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_25_nn40",
+      "page": "/about",
+      "timestamp": "2026-10-12T11:07:02.427Z",
+      "sessionId": "sess_ird9c3f",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_26_jd5t",
+      "page": "/gallery",
+      "timestamp": "2026-10-12T20:34:56.617Z",
+      "sessionId": "sess_ucz2vi7",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_27_wu6s",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-13T04:36:50.840Z",
+      "sessionId": "sess_d7yary6",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_3_28_qhn1",
+      "page": "/products",
+      "timestamp": "2026-10-13T01:34:13.322Z",
+      "sessionId": "sess_cfd3ajr",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_3_29_cfw7",
+      "page": "/contact",
+      "timestamp": "2026-10-13T06:58:43.278Z",
+      "sessionId": "sess_2bihu4u",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_3_30_ahds",
+      "page": "/contact",
+      "timestamp": "2026-10-12T22:50:37.082Z",
+      "sessionId": "sess_ftuvhh9",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_3_31_nebe",
+      "page": "/contact",
+      "timestamp": "2026-10-12T22:43:49.691Z",
+      "sessionId": "sess_go8v97j",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_2_0_murp",
+      "page": "/about",
+      "timestamp": "2026-10-13T16:26:17.525Z",
+      "sessionId": "sess_e43d58m",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_2_1_0o77",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-14T04:24:40.183Z",
+      "sessionId": "sess_j3rylit",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_2_wjj6",
+      "page": "/about",
+      "timestamp": "2026-10-13T16:48:53.533Z",
+      "sessionId": "sess_lqxe1dj",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_3_ghyx",
+      "page": "/about",
+      "timestamp": "2026-10-13T15:11:47.082Z",
+      "sessionId": "sess_op8lk3f",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_4_kbpo",
+      "page": "/about",
+      "timestamp": "2026-10-13T19:23:57.524Z",
+      "sessionId": "sess_if3e5e5",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_2_5_qlir",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-14T01:13:13.425Z",
+      "sessionId": "sess_63vxh6b",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_6_0yyi",
+      "page": "/contact",
+      "timestamp": "2026-10-14T05:09:03.621Z",
+      "sessionId": "sess_3jd3wxy",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_7_2c0s",
+      "page": "/",
+      "timestamp": "2026-10-13T21:15:49.596Z",
+      "sessionId": "sess_xjh069v",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_8_8hsx",
+      "page": "/products",
+      "timestamp": "2026-10-13T16:54:20.835Z",
+      "sessionId": "sess_idcrfh4",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_9_og85",
+      "page": "/products",
+      "timestamp": "2026-10-13T11:55:15.594Z",
+      "sessionId": "sess_0iglw6d",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_2_10_u4d4",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T08:23:14.059Z",
+      "sessionId": "sess_5tcwr66",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_2_11_kmqv",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T03:12:16.513Z",
+      "sessionId": "sess_a132439",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_12_i37e",
+      "page": "/",
+      "timestamp": "2026-10-13T23:40:28.523Z",
+      "sessionId": "sess_a63doj4",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_2_13_86gm",
+      "page": "/",
+      "timestamp": "2026-10-13T16:09:01.412Z",
+      "sessionId": "sess_87lsq0e",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_2_14_vmau",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-13T18:01:16.146Z",
+      "sessionId": "sess_q8smrsn",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_2_15_m6y8",
+      "page": "/contact",
+      "timestamp": "2026-10-14T04:05:32.665Z",
+      "sessionId": "sess_uotpc3t",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_2_16_fosu",
+      "page": "/gallery",
+      "timestamp": "2026-10-13T11:18:04.317Z",
+      "sessionId": "sess_01dvu13",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_17_neol",
+      "page": "/",
+      "timestamp": "2026-10-14T08:38:04.112Z",
+      "sessionId": "sess_przzhlk",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_18_jl5x",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T08:29:15.354Z",
+      "sessionId": "sess_o6bftr1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_19_wmdg",
+      "page": "/about",
+      "timestamp": "2026-10-14T01:18:04.358Z",
+      "sessionId": "sess_p4gxxa8",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_20_9wm5",
+      "page": "/gallery",
+      "timestamp": "2026-10-13T12:59:36.584Z",
+      "sessionId": "sess_tjfh0p9",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_2_21_vnti",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-14T05:31:58.009Z",
+      "sessionId": "sess_gfwpam8",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_2_22_7zhy",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-14T06:22:05.158Z",
+      "sessionId": "sess_llo503j",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_2_23_cvj3",
+      "page": "/gallery",
+      "timestamp": "2026-10-13T18:59:03.814Z",
+      "sessionId": "sess_pp5gnsv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_0_ffkp",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-14T22:07:20.608Z",
+      "sessionId": "sess_uzb7xpl",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_1_icns",
+      "page": "/about",
+      "timestamp": "2026-10-14T10:58:25.169Z",
+      "sessionId": "sess_g8oa585",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_2_doyq",
+      "page": "/contact",
+      "timestamp": "2026-10-15T05:25:17.312Z",
+      "sessionId": "sess_vfj282v",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_3_cs2y",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T23:41:30.678Z",
+      "sessionId": "sess_u34tm12",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_4_vez5",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T21:30:10.822Z",
+      "sessionId": "sess_qp8lvf4",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_5_legv",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T10:19:19.224Z",
+      "sessionId": "sess_ziou4sj",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_6_rhpg",
+      "page": "/contact",
+      "timestamp": "2026-10-14T17:36:29.891Z",
+      "sessionId": "sess_ix53fa3",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_7_a6ch",
+      "page": "/about",
+      "timestamp": "2026-10-14T16:44:31.232Z",
+      "sessionId": "sess_z1nzkn2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_8_tish",
+      "page": "/",
+      "timestamp": "2026-10-15T01:42:05.647Z",
+      "sessionId": "sess_0edxse2",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_9_jbjj",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T19:51:27.865Z",
+      "sessionId": "sess_dqir6k3",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_10_vs78",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T08:26:10.141Z",
+      "sessionId": "sess_u43bird",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_11_pebi",
+      "page": "/contact",
+      "timestamp": "2026-10-15T05:29:21.631Z",
+      "sessionId": "sess_g4s47hy",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_12_3ftf",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T10:09:39.279Z",
+      "sessionId": "sess_paqelhm",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_13_onlz",
+      "page": "/contact",
+      "timestamp": "2026-10-14T19:32:27.650Z",
+      "sessionId": "sess_5x27up9",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_14_kldk",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T01:15:09.192Z",
+      "sessionId": "sess_kj3ef0h",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_15_egv5",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T02:46:57.688Z",
+      "sessionId": "sess_fea2of2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_16_xouz",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T10:59:59.843Z",
+      "sessionId": "sess_zrlh6o4",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_17_9d52",
+      "page": "/",
+      "timestamp": "2026-10-14T22:50:56.969Z",
+      "sessionId": "sess_s2z4hdk",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_18_3cr2",
+      "page": "/",
+      "timestamp": "2026-10-14T12:16:58.675Z",
+      "sessionId": "sess_mb1gcgd",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_19_z09u",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T08:22:12.338Z",
+      "sessionId": "sess_umx5noj",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_20_xeej",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T13:02:21.431Z",
+      "sessionId": "sess_q6tq5xl",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_21_y35v",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T22:17:56.891Z",
+      "sessionId": "sess_zww5xo2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_22_a31x",
+      "page": "/",
+      "timestamp": "2026-10-14T16:22:08.584Z",
+      "sessionId": "sess_miyvsmc",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_23_mr9n",
+      "page": "/about",
+      "timestamp": "2026-10-14T12:15:51.273Z",
+      "sessionId": "sess_6i1tiae",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_24_bh2o",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-14T22:07:27.050Z",
+      "sessionId": "sess_1limnrn",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_25_nsk2",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-15T03:24:21.584Z",
+      "sessionId": "sess_r5od7ch",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_26_m6p3",
+      "page": "/products",
+      "timestamp": "2026-10-14T15:36:56.737Z",
+      "sessionId": "sess_0g6dezo",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_27_tuua",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T07:59:05.647Z",
+      "sessionId": "sess_ha0gyud",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_28_pp2h",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-15T06:34:22.898Z",
+      "sessionId": "sess_e0o3as7",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_29_tdo8",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-15T02:00:03.056Z",
+      "sessionId": "sess_3tv4xkv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_30_jphl",
+      "page": "/contact",
+      "timestamp": "2026-10-14T17:40:11.220Z",
+      "sessionId": "sess_4rirq0z",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_31_kef6",
+      "page": "/about",
+      "timestamp": "2026-10-15T10:30:28.903Z",
+      "sessionId": "sess_0ohekly",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_32_6clh",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T21:49:36.832Z",
+      "sessionId": "sess_pm4jnde",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_33_ypdw",
+      "page": "/gallery",
+      "timestamp": "2026-10-14T13:01:26.043Z",
+      "sessionId": "sess_5d3ms5u",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_34_l572",
+      "page": "/contact",
+      "timestamp": "2026-10-15T10:27:55.316Z",
+      "sessionId": "sess_p60kgbd",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_1_35_sv1f",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-15T01:03:43.526Z",
+      "sessionId": "sess_7pvdkvo",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_36_fjdb",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-15T04:57:46.076Z",
+      "sessionId": "sess_nu3gjfv",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_1_37_isaj",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-14T16:30:58.487Z",
+      "sessionId": "sess_v1w1z2t",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_38_cfjf",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-14T12:57:52.570Z",
+      "sessionId": "sess_rgzd47h",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_1_39_q0pg",
+      "page": "/contact",
+      "timestamp": "2026-10-14T20:17:46.346Z",
+      "sessionId": "sess_vtppvsk",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_0_0_jp0q",
+      "page": "/about",
+      "timestamp": "2026-10-15T14:20:09.213Z",
+      "sessionId": "sess_c5rurog",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_1_ojf1",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T20:10:05.311Z",
+      "sessionId": "sess_wasw45p",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_2_p4j2",
+      "page": "/products",
+      "timestamp": "2026-10-16T07:39:12.861Z",
+      "sessionId": "sess_iq949kd",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_0_3_xxbi",
+      "page": "/contact",
+      "timestamp": "2026-10-15T19:27:11.354Z",
+      "sessionId": "sess_tezvvod",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_0_4_ml4d",
+      "page": "/products",
+      "timestamp": "2026-10-15T23:16:00.367Z",
+      "sessionId": "sess_l4y8bme",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_5_7imz",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-16T08:52:01.208Z",
+      "sessionId": "sess_atu423k",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_0_6_686p",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T13:56:44.475Z",
+      "sessionId": "sess_gkiusnf",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_0_7_f45s",
+      "page": "/gallery",
+      "timestamp": "2026-10-15T15:49:02.985Z",
+      "sessionId": "sess_69eow9i",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_8_0s97",
+      "page": "/about",
+      "timestamp": "2026-10-15T22:43:35.970Z",
+      "sessionId": "sess_qw2p0l1",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_9_x7ne",
+      "page": "/products",
+      "timestamp": "2026-10-16T05:03:55.226Z",
+      "sessionId": "sess_6z7l6ph",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_0_10_04gi",
+      "page": "/products",
+      "timestamp": "2026-10-16T09:56:39.874Z",
+      "sessionId": "sess_vd8t1i8",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_0_11_rky3",
+      "page": "/products",
+      "timestamp": "2026-10-16T00:13:49.836Z",
+      "sessionId": "sess_tk0bipi",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_0_12_606g",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-16T01:08:17.011Z",
+      "sessionId": "sess_rf3rb5y",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_13_eoa6",
+      "page": "/gallery",
+      "timestamp": "2026-10-16T05:07:25.769Z",
+      "sessionId": "sess_upou0gh",
+      "device": "tablet"
+    },
+    {
+      "id": "vis_0_14_5a85",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-15T20:50:28.562Z",
+      "sessionId": "sess_pkauxdl",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_15_jxuj",
+      "page": "/products",
+      "timestamp": "2026-10-15T21:48:48.461Z",
+      "sessionId": "sess_bpf6e30",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_0_16_kkwy",
+      "page": "/about",
+      "timestamp": "2026-10-16T08:14:10.331Z",
+      "sessionId": "sess_d8abnhr",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_17_8d34",
+      "page": "/about",
+      "timestamp": "2026-10-16T07:12:33.183Z",
+      "sessionId": "sess_82kpgfu",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_18_hjy5",
+      "page": "/gallery",
+      "timestamp": "2026-10-16T00:12:38.143Z",
+      "sessionId": "sess_s0b55d2",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_19_6zz0",
+      "page": "/contact",
+      "timestamp": "2026-10-16T03:43:07.762Z",
+      "sessionId": "sess_dshjixh",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_20_87mt",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-15T11:56:13.260Z",
+      "sessionId": "sess_6em0f8c",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_21_bx6c",
+      "page": "/",
+      "timestamp": "2026-10-15T12:45:10.572Z",
+      "sessionId": "sess_v4r75nd",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_22_x1e5",
+      "page": "/contact",
+      "timestamp": "2026-10-16T09:47:50.599Z",
+      "sessionId": "sess_7v6h0iv",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_23_v2tz",
+      "page": "/gallery",
+      "timestamp": "2026-10-16T03:28:14.712Z",
+      "sessionId": "sess_ju10rgy",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_24_smtu",
+      "page": "/products/prod_hair_bows_linen",
+      "timestamp": "2026-10-15T15:41:02.614Z",
+      "sessionId": "sess_juolt9i",
+      "device": "desktop"
+    },
+    {
+      "id": "vis_0_25_gkz1",
+      "page": "/products",
+      "timestamp": "2026-10-15T15:28:58.000Z",
+      "sessionId": "sess_ur4rn3z",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_0_26_kbmv",
+      "page": "/products/prod_calendar_hoop",
+      "timestamp": "2026-10-16T08:43:26.782Z",
+      "sessionId": "sess_dw7gsmf",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_0_27_aiot",
+      "page": "/",
+      "timestamp": "2026-10-16T09:23:22.458Z",
+      "sessionId": "sess_zp3x7j2",
+      "device": "mobile"
+    },
+    {
+      "id": "vis_0_28_4i92",
+      "page": "/contact",
+      "timestamp": "2026-10-15T11:13:09.853Z",
+      "sessionId": "sess_1npvm0s",
+      "device": "desktop"
+    }
+  ]
+}

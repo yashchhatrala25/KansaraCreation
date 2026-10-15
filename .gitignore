@@ -1,0 +1,85 @@
+# ===========================
+# Dependencies
+# ===========================
+node_modules/
+.pnp
+.pnp.js
+
+# ===========================
+# Next.js
+# ===========================
+.next/
+out/
+build/
+dist/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# Keep the example file — it acts as a template
+!.env.example
+
+# ===========================
+# Prisma
+# ===========================
+# Generated Prisma client
+prisma/generated/
+# SQLite database files (if used locally)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ===========================
+# TypeScript
+# ===========================
+*.tsbuildinfo
+next-env.d.ts
+
+# ===========================
+# Testing
+# ===========================
+coverage/
+.nyc_output/
+cypress/screenshots/
+cypress/videos/
+
+# ===========================
+# Logs & Debug
+# ===========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===========================
+# OS & Editor
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# ===========================
+# Misc
+# ===========================
+.vercel
+.turbo/
+*.pem
+.cache/

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <!-- Background circle gradient (dark) -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#0d0d14"/>
+    </radialGradient>
+    <!-- Hoop ring gradient: violet → pink → amber -->
+    <linearGradient id="hoopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#7c3aed"/>
+      <stop offset="50%"  stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <!-- Inner flower gradient -->
+    <linearGradient id="flowerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Dark rounded background -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+
+  <!-- Outer hoop ring (thick stroke circle) -->
+  <circle cx="32" cy="32" r="23" stroke="url(#hoopGrad)" stroke-width="5" fill="none" filter="url(#glow)"/>
+
+  <!-- Inner hoop ring (thin accent) -->
+  <circle cx="32" cy="32" r="17.5" stroke="url(#hoopGrad)" stroke-width="1.2" fill="none" opacity="0.4"/>
+
+  <!-- Hoop clasp at top (small rectangle) -->
+  <rect x="29.5" y="5.5" width="5" height="7" rx="2.5" fill="url(#hoopGrad)" opacity="0.9"/>
+
+  <!-- Center French knot flower — 5 petals as dots arranged in a circle, plus center -->
+  <!-- Center knot -->
+  <circle cx="32" cy="32" r="2.8" fill="url(#flowerGrad)" filter="url(#glow)"/>
+  <!-- Petal knots (radius 7 from center) -->
+  <circle cx="32"    cy="25"   r="2"   fill="url(#flowerGrad)" opacity="0.9"/>
+  <circle cx="38.66" cy="28.5" r="2"   fill="url(#flowerGrad)" opacity="0.9"/>
+  <circle cx="36.33" cy="36"   r="2"   fill="url(#flowerGrad)" opacity="0.9"/>
+  <circle cx="27.67" cy="36"   r="2"   fill="url(#flowerGrad)" opacity="0.9"/>
+  <circle cx="25.34" cy="28.5" r="2"   fill="url(#flowerGrad)" opacity="0.9"/>
+
+  <!-- Small accent knots between petals (tiny, for embroidery texture) -->
+  <circle cx="32"    cy="28.2" r="1"   fill="#f9a8d4" opacity="0.6"/>
+  <circle cx="35.5"  cy="30.5" r="1"   fill="#f9a8d4" opacity="0.6"/>
+  <circle cx="34.3"  cy="34.2" r="1"   fill="#f9a8d4" opacity="0.6"/>
+  <circle cx="29.7"  cy="34.2" r="1"   fill="#f9a8d4" opacity="0.6"/>
+  <circle cx="28.5"  cy="30.5" r="1"   fill="#f9a8d4" opacity="0.6"/>
+</svg>
