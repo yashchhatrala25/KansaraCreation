@@ -494,6 +494,20 @@
   ],
   "visits": [
     {
+      "id": "vis_1792648703991_zjpgk",
+      "page": "/",
+      "sessionId": "sess_qet9vn2i",
+      "device": "desktop",
+      "timestamp": "2026-10-22T05:58:23.991Z"
+    },
+    {
+      "id": "vis_1792648703958_t3667",
+      "page": "/",
+      "sessionId": "sess_qet9vn2i",
+      "device": "desktop",
+      "timestamp": "2026-10-22T05:58:23.958Z"
+    },
+    {
       "id": "vis_1792069084654_x3f0b",
       "page": "/",
       "sessionId": "sess_3rbptts7",

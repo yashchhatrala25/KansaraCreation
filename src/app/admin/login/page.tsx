@@ -3,15 +3,15 @@
 import React, { useState, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
-import { ShieldCheck, Lock, Mail, AlertCircle, Sparkles, ArrowRight, Info } from "lucide-react";
+import { ShieldCheck, Lock, Mail, AlertCircle, ArrowRight, Info } from "lucide-react";
 
 function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const from = searchParams.get("from");
 
-  const [email, setEmail] = useState("admin@kansara.com");
-  const [password, setPassword] = useState("Admin@123");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
@@ -77,20 +77,6 @@ function LoginForm() {
             </div>
           )}
 
-          {/* Seed credentials notice */}
-          <div className="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs mb-6 space-y-1">
-            <div className="flex items-center gap-1.5 font-semibold">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Default Seed Credentials:</span>
-            </div>
-            <p className="font-mono text-[11px] text-amber-200/90">
-              admin@kansara.com / Admin@123
-            </p>
-            <p className="text-[10px] text-amber-300/70 italic">
-              Please change this password in production.
-            </p>
-          </div>
-
           {error && (
             <div className="p-3 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-300 text-xs mb-6 flex items-center gap-2">
               <AlertCircle className="w-4 h-4 flex-shrink-0" />
@@ -111,7 +97,7 @@ function LoginForm() {
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@kansara.com"
+                  placeholder="Enter your email"
                   className="w-full pl-10 pr-4 py-3 rounded-xl bg-surface border border-white/10 text-xs text-content-primary focus:outline-none focus:border-pink-500"
                 />
               </div>
