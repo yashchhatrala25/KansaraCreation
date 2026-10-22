@@ -2,6 +2,7 @@
 
 A full-stack, production-quality e-commerce web platform built for **Kansara Creation**, a premier handmade products brand specializing in personalized anniversary calendar embroidery hoops, botanical hair bows, and bohemian macrame dreamcatchers.
 
+> 🌐 **Live Web Application**: [https://kansaracreation.netlify.app/](https://kansaracreation.netlify.app/)  
 > **Official Brand Instagram**: [https://www.instagram.com/kansara_creation/](https://www.instagram.com/kansara_creation/)  
 > **Artisan Studio**: 123, Craft Street, Ahmedabad, Gujarat 380001  
 > **Contact**: +91 98765 43210 | hello@kansaracreation.com  
@@ -73,18 +74,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 🔑 Admin Credentials
-
-| Field | Value |
-|---|---|
-| **Admin Login URL** | [http://localhost:3000/admin/login](http://localhost:3000/admin/login) |
-| **Email** | `admin@kansara.com` |
-| **Password** | `Admin@123` |
-
-> ⚠️ **Security Tip**: Please change the default admin password in production.
 
 ---
 
